@@ -1,21 +1,32 @@
 # Deployment Guide
 
-## Quick Deploy to Vercel (Recommended)
+## ✅ Código ya está en GitHub
 
-1. Push your code to GitHub:
-```bash
-git init
-git add .
-git commit -m "Initial commit: Claude Code landing page"
-git remote add origin YOUR_GITHUB_REPO_URL
-git push -u origin main
-```
+El código está subido en: **https://github.com/camidevai/CladeCodeConDaniel.git**
 
-2. Go to [vercel.com](https://vercel.com)
-3. Click "New Project"
-4. Import your GitHub repository
-5. Vercel will auto-detect Next.js and configure everything
-6. Click "Deploy"
+---
+
+## Quick Deploy to Netlify (Recomendado)
+
+**Ver guía completa:** [NETLIFY_DEPLOY.md](./NETLIFY_DEPLOY.md)
+
+### Pasos rápidos:
+1. Ve a [netlify.com](https://netlify.com)
+2. Click "Add new site" → "Import an existing project"
+3. Conecta con GitHub y selecciona: `camidevai/CladeCodeConDaniel`
+4. Netlify detecta Next.js automáticamente (ya configurado con `netlify.toml`)
+5. Click "Deploy site"
+6. ¡Listo en 2-3 minutos!
+
+---
+
+## Quick Deploy to Vercel (Alternativa)
+
+1. Go to [vercel.com](https://vercel.com)
+2. Click "New Project"
+3. Import GitHub repository: `camidevai/CladeCodeConDaniel`
+4. Vercel will auto-detect Next.js and configure everything
+5. Click "Deploy"
 
 Your site will be live in ~2 minutes!
 
