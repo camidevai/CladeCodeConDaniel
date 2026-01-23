@@ -33,11 +33,7 @@ export default function VideoPreview() {
         </div>
 
         {/* Optional: Key highlights below video */}
-        <div className="mt-12 grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">6</div>
-            <p className="text-muted">Módulos completos</p>
-          </div>
+        <div className="mt-12 grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
             <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">100%</div>
             <p className="text-muted">Gratuito en YouTube</p>

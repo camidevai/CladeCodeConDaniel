@@ -170,14 +170,56 @@ Modificaciones realizadas para aumentar engagement (más clics al CTA de YouTube
 
 ---
 
+## CAMBIO 4: VideoPreview - Eliminar "6 módulos completos"
+
+**Archivo:** `components/VideoPreview.tsx`
+**Líneas:** 35-45
+
+**ANTES:**
+```typescript
+<div className="mt-12 grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+  <div className="text-center">
+    <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">6</div>
+    <p className="text-muted">Módulos completos</p>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">100%</div>
+    <p className="text-muted">Gratuito en YouTube</p>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">1</div>
+    <p className="text-muted">Proyecto real en producción</p>
+  </div>
+</div>
+```
+
+**DESPUÉS:**
+```typescript
+<div className="mt-12 grid sm:grid-cols-2 gap-8 max-w-2xl mx-auto">
+  <div className="text-center">
+    <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">100%</div>
+    <p className="text-muted">Gratuito en YouTube</p>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl sm:text-4xl font-editorial text-accent mb-2">1</div>
+    <p className="text-muted">Proyecto real en producción</p>
+  </div>
+</div>
+```
+
+**Razón:** Como ahora es un video pilot (no 6 módulos completos), se eliminó la estadística engañosa.
+
+---
+
 ## Archivos Modificados
 
 1. ✅ `components/FAQ.tsx` - 3 cambios (duración, webinar, comunidad)
 2. ✅ `components/Hero.tsx` - 3 cambios (subtítulo, CTAs, microcopy)
 3. ✅ `components/Footer.tsx` - 3 cambios (título, descripción, CTAs)
 4. ✅ `components/EmailModal.tsx` - 1 cambio (placeholder)
+5. ✅ `components/VideoPreview.tsx` - 1 cambio (eliminar "6 módulos completos")
 
-**Total:** 4 archivos, 10 cambios de copy/UX
+**Total:** 5 archivos, 11 cambios de copy/UX
 
 ---
 
