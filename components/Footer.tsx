@@ -30,7 +30,7 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
               onClick={onOpenEmailModal}
               className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-accent bg-bg border-2 border-accent rounded-lg hover:bg-accentSoft transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-surface"
             >
-              Recibir templates gratis
+              Ver templates y recursos
             </button>
           </div>
         </div>

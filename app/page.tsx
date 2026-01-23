@@ -10,14 +10,14 @@ import FinalProject from "@/components/FinalProject";
 import Instructors from "@/components/Instructors";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import EmailModal from "@/components/EmailModal";
+import ResourcesModal from "@/components/ResourcesModal";
 
 export default function Home() {
-  const [isEmailModalOpen, setIsEmailModalOpen] = useState(false);
+  const [isResourcesModalOpen, setIsResourcesModalOpen] = useState(false);
 
   return (
     <main className="min-h-screen">
-      <Hero onOpenEmailModal={() => setIsEmailModalOpen(true)} />
+      <Hero onOpenEmailModal={() => setIsResourcesModalOpen(true)} />
       <VideoPreview />
       <Outcomes />
       <TargetAudience />
@@ -25,10 +25,10 @@ export default function Home() {
       <FinalProject />
       <Instructors />
       <FAQ />
-      <Footer onOpenEmailModal={() => setIsEmailModalOpen(true)} />
-      <EmailModal 
-        isOpen={isEmailModalOpen} 
-        onClose={() => setIsEmailModalOpen(false)} 
+      <Footer onOpenEmailModal={() => setIsResourcesModalOpen(true)} />
+      <ResourcesModal
+        isOpen={isResourcesModalOpen}
+        onClose={() => setIsResourcesModalOpen(false)}
       />
     </main>
   );

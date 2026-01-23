@@ -40,9 +40,9 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
                   className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-accent bg-surface border-2 border-accent rounded-lg hover:bg-accentSoft transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg"
                   aria-label="Obtener templates y recursos gratuitos"
                 >
-                  Recibir templates gratis
+                  Ver templates y recursos
                 </button>
-                <span className="text-xs text-muted text-center sm:text-left">Te llegan al correo</span>
+                <span className="text-xs text-muted text-center sm:text-left">Acceso directo y gratuito</span>
               </div>
             </div>
           </div>

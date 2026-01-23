@@ -223,6 +223,56 @@ Modificaciones realizadas para aumentar engagement (más clics al CTA de YouTube
 
 ---
 
+## CAMBIO 5: Reemplazar formulario de email por recursos directos
+
+**Archivos modificados:**
+- `components/ResourcesModal.tsx` (NUEVO)
+- `app/page.tsx`
+- `components/Hero.tsx`
+- `components/Footer.tsx`
+- `components/FAQ.tsx`
+
+### Nuevo componente: ResourcesModal
+
+**ANTES:** EmailModal con formulario de captura de email
+
+**DESPUÉS:** ResourcesModal con links directos a:
+1. **CodeGPT** - https://www.codegpt.co/
+2. **Blog de Daniel Ávila** - https://medium.com/@dan.avila7
+
+### Cambios en CTAs:
+
+**Hero.tsx (línea 42):**
+- ANTES: "Recibir templates gratis" + "Te llegan al correo"
+- DESPUÉS: "Ver templates y recursos" + "Acceso directo y gratuito"
+
+**Footer.tsx (línea 32):**
+- ANTES: "Recibir templates gratis"
+- DESPUÉS: "Ver templates y recursos"
+
+**FAQ.tsx (línea 35):**
+- ANTES: "...compartimos recursos y actualizaciones por email para quienes se suscriban a los templates."
+- DESPUÉS: "...puedes acceder a templates y recursos adicionales de forma gratuita."
+
+### Razón:
+En lugar de capturar emails, ahora se entregan recursos directos (CodeGPT y Medium) para reducir fricción y dar valor inmediato.
+
+---
+
+## Archivos Modificados (ACTUALIZADO)
+
+1. ✅ `components/FAQ.tsx` - 4 cambios (duración, webinar, comunidad, recursos)
+2. ✅ `components/Hero.tsx` - 4 cambios (subtítulo, CTAs, microcopy, recursos)
+3. ✅ `components/Footer.tsx` - 4 cambios (título, descripción, CTAs, recursos)
+4. ✅ `components/EmailModal.tsx` - 1 cambio (placeholder) - YA NO SE USA
+5. ✅ `components/VideoPreview.tsx` - 1 cambio (eliminar "6 módulos completos")
+6. ✅ `components/ResourcesModal.tsx` - NUEVO componente
+7. ✅ `app/page.tsx` - Reemplazar EmailModal por ResourcesModal
+
+**Total:** 7 archivos, 15 cambios de copy/UX
+
+---
+
 ## Criterios de Aceptación ✅
 
 - ✅ No hay ninguna mención a semanas/meses como duración

@@ -32,7 +32,7 @@ export default function FAQ() {
     },
     {
       question: "¿Hay soporte o comunidad?",
-      answer: "Sí. Deja tus dudas en los comentarios de YouTube y tanto los instructores como la comunidad te ayudarán. Suscríbete al canal para no perderte los próximos videos. También compartimos recursos y actualizaciones por email para quienes se suscriban a los templates."
+      answer: "Sí. Deja tus dudas en los comentarios de YouTube y tanto los instructores como la comunidad te ayudarán. Suscríbete al canal para no perderte los próximos videos. También puedes acceder a templates y recursos adicionales de forma gratuita."
     }
   ];
 
