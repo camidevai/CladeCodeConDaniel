@@ -118,7 +118,7 @@ export default function EmailModal({ isOpen, onClose }: EmailModalProps) {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="tu@email.com"
+                  placeholder="tu@correo.com"
                   className="w-full px-4 py-3 bg-bg border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-200 text-text placeholder:text-muted/50"
                   disabled={isSubmitting}
                   aria-invalid={error ? "true" : "false"}

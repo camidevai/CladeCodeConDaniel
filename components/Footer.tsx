@@ -9,10 +9,10 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
       <div className="bg-accent/5 border-b border-border">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 text-center">
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            Empieza hoy mismo
+            Empieza hoy con el primer video
           </h2>
           <p className="text-lg sm:text-xl text-muted mb-8 max-w-2xl mx-auto">
-            Únete a miles de desarrolladores que ya están usando Claude Code para construir mejor y más rápido
+            Guarda el video para seguirlo paso a paso. Suscríbete si quieres que lo transformemos en serie completa.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -21,7 +21,7 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-white bg-accent rounded-lg hover:bg-[#C86647] transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-surface"
             >
-              Ver el curso en YouTube
+              Ver el video ahora
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
@@ -30,7 +30,7 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
               onClick={onOpenEmailModal}
               className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-accent bg-bg border-2 border-accent rounded-lg hover:bg-accentSoft transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-surface"
             >
-              Quiero los templates y recursos
+              Recibir templates gratis
             </button>
           </div>
         </div>

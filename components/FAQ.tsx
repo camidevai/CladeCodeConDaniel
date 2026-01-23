@@ -20,7 +20,11 @@ export default function FAQ() {
     },
     {
       question: "¿Cuánto tiempo me tomará completar el curso?",
-      answer: "El curso está diseñado para completarse en 4-6 semanas dedicando 3-5 horas por semana. Puedes ir a tu propio ritmo: algunos lo completan en 2 semanas intensivas, otros lo toman con más calma en 2-3 meses."
+      answer: "Por ahora es un video único (pilot) en YouTube. Si a la comunidad le sirve y nos va bien con este primer video, vamos a seguir publicando más videos y materiales."
+    },
+    {
+      question: "¿Habrá un webinar?",
+      answer: "Sí. Daniel Ávila y CamiDevAI planean un webinar introductorio para enseñar lo básico de Claude Code (comandos, cómo utilizarlo y primeros flujos). Lo vamos a anunciar por este mismo canal cuando esté confirmado."
     },
     {
       question: "¿Recibiré un certificado al finalizar?",
@@ -28,7 +32,7 @@ export default function FAQ() {
     },
     {
       question: "¿Hay soporte o comunidad?",
-      answer: "Puedes hacer preguntas en los comentarios de YouTube donde tanto los instructores como la comunidad responden activamente. También compartimos recursos y actualizaciones por email para quienes se suscriban a los templates."
+      answer: "Sí. Deja tus dudas en los comentarios de YouTube y tanto los instructores como la comunidad te ayudarán. Suscríbete al canal para no perderte los próximos videos. También compartimos recursos y actualizaciones por email para quienes se suscriban a los templates."
     }
   ];
 

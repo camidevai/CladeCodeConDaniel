@@ -14,8 +14,8 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
                 Claude Code en serio: de tu terminal a producción
               </h1>
               <p className="text-lg sm:text-xl text-muted leading-relaxed max-w-xl">
-                Aprende a dominar Claude Code desde la configuración inicial hasta deployar proyectos reales en producción. 
-                Curso 100% gratuito en YouTube.
+                Domina Claude Code desde la configuración inicial hasta deployar proyectos reales en producción.
+                Empieza hoy, 100% gratuito en YouTube.
               </p>
             </div>
 
@@ -28,19 +28,22 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
                 className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-white bg-accent rounded-lg hover:bg-[#C86647] transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg"
                 aria-label="Ver el curso completo en YouTube"
               >
-                Ver el curso en YouTube
+                Ver el video ahora
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </a>
-              
-              <button
-                onClick={onOpenEmailModal}
-                className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-accent bg-surface border-2 border-accent rounded-lg hover:bg-accentSoft transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg"
-                aria-label="Obtener templates y recursos gratuitos"
-              >
-                Quiero los templates y recursos
-              </button>
+
+              <div className="flex flex-col gap-1">
+                <button
+                  onClick={onOpenEmailModal}
+                  className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-accent bg-surface border-2 border-accent rounded-lg hover:bg-accentSoft transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-bg"
+                  aria-label="Obtener templates y recursos gratuitos"
+                >
+                  Recibir templates gratis
+                </button>
+                <span className="text-xs text-muted text-center sm:text-left">Te llegan al correo</span>
+              </div>
             </div>
           </div>
 
