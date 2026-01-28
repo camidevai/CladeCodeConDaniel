@@ -30,8 +30,7 @@ export default function Instructors() {
       ],
       social: {
         threads: "https://www.threads.com/@camidevai",
-        instagram: "https://www.instagram.com/danielsan_avila",
-        linktree: "https://linktr.ee/camidevai"
+        instagram: "https://www.instagram.com/camidevai",
       }
     }
   ];
