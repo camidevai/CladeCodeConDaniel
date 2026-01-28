@@ -273,6 +273,204 @@ En lugar de capturar emails, ahora se entregan recursos directos (CodeGPT y Medi
 
 ---
 
+## CAMBIO 6: Pivot de contenido - Curso introductorio sobre setup y buenas prácticas
+
+**Fecha:** 2026-01-28
+
+**Contexto:** El curso/webinar trata sobre **primeros pasos con Claude Code y las buenas prácticas para armar un excelente setup de trabajo**, no un curso completo de 6 módulos.
+
+**Archivos modificados:**
+- `components/Hero.tsx`
+- `components/VideoPreview.tsx`
+- `components/Outcomes.tsx`
+- `components/Modules.tsx`
+- `components/TargetAudience.tsx`
+- `components/FinalProject.tsx`
+- `components/FAQ.tsx`
+- `components/Footer.tsx`
+
+### 6.1 Hero.tsx
+
+**Título:**
+- ANTES: "Claude Code en serio: de tu terminal a producción"
+- DESPUÉS: "Primeros pasos con Claude Code: setup y buenas prácticas"
+
+**Subtítulo:**
+- ANTES: "Domina Claude Code desde la configuración inicial hasta deployar proyectos reales en producción. Empieza hoy, 100% gratuito en YouTube."
+- DESPUÉS: "Aprende a configurar Claude Code correctamente, organizar tus proyectos con CLAUDE.md y dominar flujos agénticos desde el primer día. 100% gratuito en YouTube."
+
+### 6.2 VideoPreview.tsx
+
+**Descripción:**
+- ANTES: "Un recorrido completo por el curso y todo lo que dominarás al finalizarlo"
+- DESPUÉS: "Setup profesional, organización con CLAUDE.md y flujos agénticos para trabajar como un experto"
+
+### 6.3 Outcomes.tsx
+
+**Subtítulo:**
+- ANTES: "Este curso te lleva de cero a experto en Claude Code con resultados medibles"
+- DESPUÉS: "Fundamentos sólidos para trabajar con Claude Code de forma profesional desde el inicio"
+
+**Outcomes (3 nuevos):**
+
+1. **Setup profesional desde día 1** ⚙️
+   - "Configura Claude Code correctamente y evita errores comunes. Aprende las mejores prácticas para un entorno de trabajo óptimo."
+
+2. **Domina CLAUDE.md y organización** 📋
+   - "Estructura tus proyectos con CLAUDE.md y la carpeta .claude para que el agente entienda tu contexto y trabaje de forma consistente."
+
+3. **Flujos agénticos efectivos** 🔄
+   - "Aprende a planificar y guiar a Claude Code con workflows que maximizan resultados y minimizan iteraciones innecesarias."
+
+### 6.4 Modules.tsx
+
+**Título:**
+- ANTES: "Módulos del curso"
+- DESPUÉS: "Contenido del curso"
+
+**Subtítulo:**
+- ANTES: "6 módulos progresivos que te llevan de principiante a experto"
+- DESPUÉS: "5 temas fundamentales para dominar Claude Code desde el inicio"
+
+**Módulos (5 nuevos):**
+
+1. **Instalación y configuración inicial** (01)
+   - Setup básico de Claude Code: instalación, requisitos del sistema y configuración inicial
+   - Topics: Instalación paso a paso, Requisitos del sistema, Configuración básica, Primeros comandos esenciales
+
+2. **CLAUDE.md y organización de instrucciones** (02)
+   - Cómo estructurar instrucciones generales del proyecto para que Claude Code entienda tu contexto
+   - Topics: Qué es CLAUDE.md, Estructura recomendada, Instrucciones efectivas, Ejemplos prácticos
+
+3. **Carpeta .claude y componentes** (03)
+   - Organización de archivos, componentes reutilizables y estructura de carpetas para proyectos escalables
+   - Topics: Estructura de .claude, Componentes reutilizables, Organización de archivos, Mejores prácticas
+
+4. **Planificación y flujos agénticos** (04)
+   - Cómo guiar a Claude Code con workflows efectivos: planificación, iteración y optimización
+   - Topics: Planificación de tareas, Workflows efectivos, Iteración inteligente, Optimización de prompts
+
+5. **El futuro de la programación con agentes** (05)
+   - Por qué adoptar agentes en CLI ahora te da ventaja competitiva y cómo seguir mejorando
+   - Topics: Tendencias en IA y desarrollo, Ventajas competitivas, Próximos pasos, Recursos adicionales
+
+### 6.5 TargetAudience.tsx
+
+**Subtítulo:**
+- ANTES: "Diseñado para cualquiera que quiera dominar el desarrollo asistido por IA"
+- DESPUÉS: "Para cualquiera que quiera empezar con Claude Code de la forma correcta"
+
+**Audiencias (4 nuevas):**
+
+1. **Desarrolladores que empiezan con Claude Code**
+   - "Si quieres adoptar Claude Code pero no sabes por dónde empezar, este curso te da las bases para configurarlo correctamente desde el día 1."
+
+2. **Equipos que quieren estandarizar**
+   - "Establece un setup consistente y mejores prácticas para que todo tu equipo use Claude Code de forma profesional y organizada."
+
+3. **Programadores que buscan eficiencia**
+   - "Aprende a organizar tus proyectos con CLAUDE.md y flujos agénticos para trabajar más rápido sin sacrificar calidad."
+
+4. **Curiosos de la IA en desarrollo**
+   - "Si quieres entender cómo funcionan los agentes en CLI y por qué son el futuro del desarrollo, este es tu punto de partida."
+
+### 6.6 FinalProject.tsx
+
+**Título:**
+- ANTES: "Proyecto final: construye algo real"
+- DESPUÉS: "Lo que obtienes al completar el curso"
+
+**Descripción:**
+- ANTES: "No es un tutorial más. Vas a construir una aplicación completa que puedes mostrar en tu portfolio..."
+- DESPUÉS: "No solo teoría: te llevas templates, checklists y workflows que puedes aplicar inmediatamente en tus proyectos reales."
+
+**Features (4 nuevos):**
+
+1. **Templates de CLAUDE.md** 📁
+   - "Plantillas listas para usar en tus proyectos con las mejores prácticas incluidas"
+
+2. **Setup checklist completo** ⚙️
+   - "Lista de verificación paso a paso para configurar Claude Code sin errores"
+
+3. **Workflows agénticos probados** 🔄
+   - "Flujos de trabajo que puedes aplicar inmediatamente en tus proyectos"
+
+4. **Mejores prácticas documentadas** 🎯
+   - "Guía de referencia rápida con tips y trucos para trabajar eficientemente"
+
+**Checklist visual:**
+- ANTES: Código en GitHub, Tests pasando, CI/CD configurado, Live en producción
+- DESPUÉS: Claude Code configurado, CLAUDE.md estructurado, Carpeta .claude organizada, Flujos agénticos listos
+
+### 6.7 FAQ.tsx
+
+**Pregunta 1 (Experiencia previa):**
+- ANTES: "Se recomienda tener conocimientos básicos... Si eres principiante, podrás seguir el curso pero te tomará más tiempo."
+- DESPUÉS: "Sí, se recomienda tener conocimientos básicos de programación y familiaridad con la terminal. Este curso asume que ya sabes programar y te enseña a configurar y usar Claude Code correctamente desde el inicio."
+
+**Pregunta 2 (Gratuito):**
+- ANTES: "...solo necesitas dejar tu email para recibirlos."
+- DESPUÉS: "...también son gratuitos y de acceso directo."
+
+**Pregunta 3 (Requisitos):**
+- ANTES: "...Git, y Node.js para seguir los ejemplos prácticos."
+- DESPUÉS: "...para seguir los ejemplos de configuración."
+
+### 6.8 Footer.tsx
+
+**Título:**
+- ANTES: "Claude Code en serio"
+- DESPUÉS: "Primeros pasos con Claude Code"
+
+**Descripción:**
+- ANTES: "El curso más completo en español para dominar Claude Code desde cero hasta producción. 100% gratuito, 100% práctico."
+- DESPUÉS: "Aprende a configurar Claude Code correctamente y domina las buenas prácticas desde el inicio. 100% gratuito, 100% práctico."
+
+---
+
+## Resumen Final de Todos los Cambios
+
+**Total de archivos modificados:** 12 archivos
+**Total de cambios:** 23 cambios de copy/UX
+
+### Archivos modificados:
+
+1. ✅ `components/FAQ.tsx` - 6 cambios
+2. ✅ `components/Hero.tsx` - 4 cambios
+3. ✅ `components/Footer.tsx` - 5 cambios
+4. ✅ `components/EmailModal.tsx` - 1 cambio (YA NO SE USA)
+5. ✅ `components/VideoPreview.tsx` - 2 cambios
+6. ✅ `components/ResourcesModal.tsx` - NUEVO componente
+7. ✅ `app/page.tsx` - Reemplazar EmailModal por ResourcesModal
+8. ✅ `components/Outcomes.tsx` - 2 cambios (outcomes + subtítulo)
+9. ✅ `components/Modules.tsx` - 2 cambios (5 módulos nuevos + título/subtítulo)
+10. ✅ `components/TargetAudience.tsx` - 2 cambios (audiencias + subtítulo)
+11. ✅ `components/FinalProject.tsx` - 3 cambios (título, features, checklist)
+
+### Commits realizados:
+
+1. ✅ "UX improvements: Update copy for better engagement (CTAs, FAQ, microcopy)"
+2. ✅ "Remove misleading '6 módulos completos' stat from VideoPreview (now 2 columns)"
+3. ✅ "Replace email form with direct resource links (CodeGPT + Medium blog)"
+4. ✅ "Content pivot: Update all sections to reflect introductory course (setup + best practices)"
+
+---
+
+## Estado Actual
+
+**Landing page:** https://curso-claude-code.netlify.app/
+
+**Contenido reflejado:**
+- ✅ Curso introductorio sobre primeros pasos con Claude Code
+- ✅ Enfoque en setup y buenas prácticas
+- ✅ 5 temas específicos (instalación, CLAUDE.md, .claude, flujos agénticos, futuro)
+- ✅ Honesto sobre ser un video pilot
+- ✅ Sin fricción para acceder a recursos (links directos)
+- ✅ CTAs optimizados para engagement
+- ✅ Copy alineado con contenido real del curso
+
+---
+
 ## Criterios de Aceptación ✅
 
 - ✅ No hay ninguna mención a semanas/meses como duración
