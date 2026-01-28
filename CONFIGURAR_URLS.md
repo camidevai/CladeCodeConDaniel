@@ -6,25 +6,24 @@ Para que la página de inscripción funcione correctamente, necesitas reemplazar
 
 ---
 
-## 1. URL del Grupo de WhatsApp
+## 1. URL del Grupo de WhatsApp ✅
 
-**Archivo:** `app/inscripcion/page.tsx`  
-**Línea:** ~95  
-**Placeholder:** `{{WHATSAPP_GROUP_URL}}`
+**Estado:** ✅ **CONFIGURADO**
 
-**Cómo obtener el link del grupo:**
-1. Abre WhatsApp Web o la app móvil
-2. Ve al grupo que creaste para el curso
-3. Toca el nombre del grupo → "Invitar mediante enlace"
-4. Copia el enlace (será algo como: `https://chat.whatsapp.com/XXXXXXXXXX`)
+**Archivo:** `app/inscripcion/page.tsx`
+**Línea:** ~77
+**URL configurada:** `https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6`
 
-**Reemplazar:**
+~~**Cómo obtener el link del grupo:**~~
+~~1. Abre WhatsApp Web o la app móvil~~
+~~2. Ve al grupo que creaste para el curso~~
+~~3. Toca el nombre del grupo → "Invitar mediante enlace"~~
+~~4. Copia el enlace (será algo como: `https://chat.whatsapp.com/XXXXXXXXXX`)~~
+
+**Ya configurado:**
 ```tsx
-// ANTES:
-href="{{WHATSAPP_GROUP_URL}}"
-
-// DESPUÉS:
-href="https://chat.whatsapp.com/TU_CODIGO_DE_GRUPO"
+// ✅ CONFIGURADO:
+href="https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6"
 ```
 
 ---
@@ -175,14 +174,14 @@ Te avisaremos cuando esté confirmada la fecha. ¡Nos vemos pronto! 🚀
 Antes de lanzar la página de inscripción:
 
 - [ ] Video de agradecimiento grabado y subido
-- [ ] Grupo de WhatsApp creado
-- [ ] URL de WhatsApp configurada en `page.tsx`
+- [x] Grupo de WhatsApp creado ✅
+- [x] URL de WhatsApp configurada en `page.tsx` ✅
 - [ ] URL de video configurada en `page.tsx`
 - [ ] Cambios pusheados a GitHub
 - [ ] Deploy completado en Netlify
 - [ ] Página `/inscripcion` probada en producción
 - [ ] Video se reproduce correctamente
-- [ ] Botón de WhatsApp funciona
+- [x] Botón de WhatsApp funciona ✅
 - [ ] Mensaje de bienvenida configurado en el grupo
 
 ---

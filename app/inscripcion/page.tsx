@@ -75,7 +75,7 @@ export default function InscripcionPage() {
 
             <div className="space-y-4">
               <a
-                href="{{WHATSAPP_GROUP_URL}}"
+                href="https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full sm:w-auto sm:mx-auto sm:max-w-md px-8 py-4 text-center text-base sm:text-lg font-medium text-white bg-[#25D366] rounded-lg hover:bg-[#20BA5A] transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 focus:ring-offset-surface"
