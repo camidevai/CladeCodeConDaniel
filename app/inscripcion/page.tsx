@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "¡Bienvenido al Curso! | Claude Code",
@@ -11,12 +12,12 @@ export default function InscripcionPage() {
       {/* Header */}
       <header className="border-b border-border bg-surface">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-6">
-          <a href="/" className="inline-flex items-center gap-2 text-text hover:text-accent transition-colors">
+          <Link href="/" className="inline-flex items-center gap-2 text-text hover:text-accent transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
             Volver al inicio
-          </a>
+          </Link>
         </div>
       </header>
 

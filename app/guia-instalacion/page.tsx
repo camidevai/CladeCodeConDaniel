@@ -122,13 +122,13 @@ export default function GuiaInstalacionPage() {
                     <ol className="list-decimal list-inside space-y-1 text-sm text-text">
                       <li>Abre VS Code</li>
                       <li>Presiona <code className="px-2 py-1 bg-surface rounded text-accent">Ctrl+Shift+X</code> (o <code className="px-2 py-1 bg-surface rounded text-accent">Cmd+Shift+X</code> en Mac)</li>
-                      <li>Busca "Claude Code" o "Anthropic"</li>
-                      <li>Haz clic en "Install"</li>
+                      <li>Busca &quot;Claude Code&quot; o &quot;Anthropic&quot;</li>
+                      <li>Haz clic en &quot;Install&quot;</li>
                     </ol>
                   </div>
                   <div className="bg-bg border border-border rounded-lg p-4">
                     <p className="text-sm text-muted mb-2">Opción 2: Desde el navegador</p>
-                    <p className="text-sm text-text mb-2">Visita el marketplace y haz clic en "Install":</p>
+                    <p className="text-sm text-text mb-2">Visita el marketplace y haz clic en &quot;Install&quot;:</p>
                     <a 
                       href="https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code" 
                       target="_blank" 
@@ -161,11 +161,11 @@ export default function GuiaInstalacionPage() {
                     <p className="text-sm text-muted mb-2">Pasos:</p>
                     <ol className="list-decimal list-inside space-y-2 text-sm text-text">
                       <li>Ve a <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">console.anthropic.com/settings/keys</a></li>
-                      <li>Haz clic en "Create Key"</li>
-                      <li>Dale un nombre (ej: "Claude Code - Mi PC")</li>
+                      <li>Haz clic en &quot;Create Key&quot;</li>
+                      <li>Dale un nombre (ej: &quot;Claude Code - Mi PC&quot;)</li>
                       <li>Copia la API key (empieza con <code className="px-1 py-0.5 bg-surface rounded text-accent text-xs">sk-ant-...</code>)</li>
                       <li>En VS Code, abre la paleta de comandos (<code className="px-2 py-1 bg-surface rounded text-accent">Ctrl+Shift+P</code>)</li>
-                      <li>Busca "Claude Code: Set API Key"</li>
+                      <li>Busca &quot;Claude Code: Set API Key&quot;</li>
                       <li>Pega tu API key y presiona Enter</li>
                     </ol>
                   </div>
@@ -204,8 +204,8 @@ export default function GuiaInstalacionPage() {
                     <ol className="list-decimal list-inside space-y-2 text-sm text-text">
                       <li>Abre cualquier carpeta/proyecto en VS Code</li>
                       <li>Abre la paleta de comandos (<code className="px-2 py-1 bg-surface rounded text-accent">Ctrl+Shift+P</code>)</li>
-                      <li>Busca "Claude Code: Start Chat"</li>
-                      <li>Escribe un mensaje simple como "Hola, ¿estás funcionando?"</li>
+                      <li>Busca &quot;Claude Code: Start Chat&quot;</li>
+                      <li>Escribe un mensaje simple como &quot;Hola, ¿estás funcionando?&quot;</li>
                       <li>Si Claude responde, ¡todo está listo! ✅</li>
                     </ol>
                   </div>
@@ -267,14 +267,14 @@ export default function GuiaInstalacionPage() {
                 <div className="px-6 pb-4 text-sm text-muted space-y-2">
                   <p>• Verifica que estés usando la versión más reciente de VS Code</p>
                   <p>• Reinicia VS Code después de instalar la extensión</p>
-                  <p>• Busca "Anthropic" en lugar de "Claude Code"</p>
+                  <p>• Busca &quot;Anthropic&quot; en lugar de &quot;Claude Code&quot;</p>
                   <p>• Verifica que no haya errores en la consola de VS Code (Help → Toggle Developer Tools)</p>
                 </div>
               </details>
 
               <details className="bg-surface border border-border rounded-xl overflow-hidden group">
                 <summary className="px-6 py-4 cursor-pointer hover:bg-bg transition-colors flex items-center justify-between">
-                  <span className="font-medium text-text">Error: "Invalid API Key"</span>
+                  <span className="font-medium text-text">Error: &quot;Invalid API Key&quot;</span>
                   <svg className="w-5 h-5 text-muted group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -304,7 +304,7 @@ export default function GuiaInstalacionPage() {
 
               <details className="bg-surface border border-border rounded-xl overflow-hidden group">
                 <summary className="px-6 py-4 cursor-pointer hover:bg-bg transition-colors flex items-center justify-between">
-                  <span className="font-medium text-text">Error: "Rate limit exceeded"</span>
+                  <span className="font-medium text-text">Error: &quot;Rate limit exceeded&quot;</span>
                   <svg className="w-5 h-5 text-muted group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
