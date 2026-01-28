@@ -55,13 +55,14 @@ export default function Instructors() {
               className="bg-bg border border-border rounded-2xl p-8 lg:p-10 hover:shadow-xl hover:border-accent/30 transition-all duration-300"
             >
               <div className="flex flex-col items-center text-center mb-6">
-                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-accent/20">
+                <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden mb-6 border-4 border-accent/20 shadow-lg">
                   <Image
                     src={instructor.image}
                     alt={instructor.name}
-                    width={96}
-                    height={96}
+                    width={192}
+                    height={192}
                     className="w-full h-full object-cover"
+                    priority
                   />
                 </div>
                 <h3 className="font-editorial text-2xl sm:text-3xl text-text mb-1">
