@@ -9,19 +9,17 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
       <div className="bg-accent/5 border-b border-border">
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 text-center">
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            Empieza hoy con el primer video
+            Inscríbete al curso
           </h2>
           <p className="text-lg sm:text-xl text-muted mb-8 max-w-2xl mx-auto">
-            Guarda el video para seguirlo paso a paso. Suscríbete si quieres que lo transformemos en serie completa.
+            Únete al grupo de WhatsApp para recibir la fecha de la clase y estar atento a todos los detalles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="{{YOUTUBE_URL}}"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/inscripcion"
               className="inline-flex items-center justify-center px-8 py-4 text-base sm:text-lg font-medium text-white bg-accent rounded-lg hover:bg-[#C86647] transition-all duration-200 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-surface"
             >
-              Ver el video ahora
+              Inscribirme al curso
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
