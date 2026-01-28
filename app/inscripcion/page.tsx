@@ -113,9 +113,18 @@ export default function InscripcionPage() {
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center">
                   <span className="text-accent font-medium">2</span>
                 </div>
-                <div>
+                <div className="flex-1">
                   <h4 className="font-medium text-text mb-1">Prepara tu entorno</h4>
-                  <p className="text-sm text-muted">Asegúrate de tener Claude Code instalado antes de la clase</p>
+                  <p className="text-sm text-muted mb-2">Asegúrate de tener Claude Code instalado antes de la clase</p>
+                  <a
+                    href="/guia-instalacion"
+                    className="inline-flex items-center gap-1 text-sm text-accent hover:underline"
+                  >
+                    Ver guía de instalación paso a paso
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
