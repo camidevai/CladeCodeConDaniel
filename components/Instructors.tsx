@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Instructors() {
   const instructors = [
     {
       name: "Daniel Ávila",
       role: "Ingeniero en IA & Founder",
-      image: "👨‍💻",
+      image: "/img/danielAvila.png",
       bio: "Ingeniero en IA trabajando con Hedge Funds, co-fundador de CodeGPT con más de 2 millones de descargas. Creador de Claude Code Templates con 17k+ estrellas en GitHub y 300k+ descargas. Speaker en eventos de Google, Microsoft y AWS.",
       highlights: [
         "2M+ descargas de CodeGPT",
@@ -19,7 +21,7 @@ export default function Instructors() {
     {
       name: "CamiDevAI",
       role: "AI Influencer & Partner",
-      image: "👩‍💻",
+      image: "/img/camidevai.png",
       bio: "Partner en la Cámara Chilena de Inteligencia Artificial. Especializada en casos de uso prácticos de IA y automatización. Ayuda a profesionales y empresas a adoptar IA de forma efectiva en sus workflows diarios.",
       highlights: [
         "Partner en Cámara Chilena de IA",
@@ -53,8 +55,14 @@ export default function Instructors() {
               className="bg-bg border border-border rounded-2xl p-8 lg:p-10 hover:shadow-xl hover:border-accent/30 transition-all duration-300"
             >
               <div className="flex flex-col items-center text-center mb-6">
-                <div className="w-24 h-24 rounded-full bg-accent/10 flex items-center justify-center text-5xl mb-4">
-                  {instructor.image}
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-accent/20">
+                  <Image
+                    src={instructor.image}
+                    alt={instructor.name}
+                    width={96}
+                    height={96}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="font-editorial text-2xl sm:text-3xl text-text mb-1">
                   {instructor.name}
