@@ -1,20 +1,20 @@
 export default function TargetAudience() {
   const audiences = [
     {
-      title: "Desarrolladores que quieren acelerar",
-      description: "Si ya programas pero sientes que pasas demasiado tiempo en tareas repetitivas, este curso te enseña a automatizar y multiplicar tu output."
+      title: "Desarrolladores que empiezan con Claude Code",
+      description: "Si quieres adoptar Claude Code pero no sabes por dónde empezar, este curso te da las bases para configurarlo correctamente desde el día 1."
     },
     {
-      title: "Founders técnicos y solopreneurs",
-      description: "Construye MVPs y productos completos más rápido. Aprende a usar IA como tu co-founder técnico para validar ideas sin contratar un equipo."
+      title: "Equipos que quieren estandarizar",
+      description: "Establece un setup consistente y mejores prácticas para que todo tu equipo use Claude Code de forma profesional y organizada."
     },
     {
-      title: "Equipos que adoptan IA",
-      description: "Establece workflows, mejores prácticas y estándares para que tu equipo use Claude Code de forma consistente y profesional."
+      title: "Programadores que buscan eficiencia",
+      description: "Aprende a organizar tus proyectos con CLAUDE.md y flujos agénticos para trabajar más rápido sin sacrificar calidad."
     },
     {
-      title: "Estudiantes y career switchers",
-      description: "Acelera tu aprendizaje y construye un portfolio de proyectos reales que demuestren tus habilidades con herramientas modernas de IA."
+      title: "Curiosos de la IA en desarrollo",
+      description: "Si quieres entender cómo funcionan los agentes en CLI y por qué son el futuro del desarrollo, este es tu punto de partida."
     }
   ];
 
@@ -26,7 +26,7 @@ export default function TargetAudience() {
             ¿Para quién es este curso?
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
-            Diseñado para cualquiera que quiera dominar el desarrollo asistido por IA
+            Para cualquiera que quiera empezar con Claude Code de la forma correcta
           </p>
         </div>
 

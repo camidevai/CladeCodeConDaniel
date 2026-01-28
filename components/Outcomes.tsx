@@ -1,19 +1,19 @@
 export default function Outcomes() {
   const outcomes = [
     {
-      icon: "⚡",
-      title: "Productividad 10x",
-      description: "Aprende a usar Claude Code para escribir, refactorizar y debuggear código a velocidad profesional, reduciendo horas de trabajo manual."
+      icon: "⚙️",
+      title: "Setup profesional desde día 1",
+      description: "Configura Claude Code correctamente y evita errores comunes. Aprende las mejores prácticas para un entorno de trabajo óptimo."
     },
     {
-      icon: "🚀",
-      title: "De idea a producción",
-      description: "Domina el flujo completo: desde configurar tu entorno hasta deployar aplicaciones reales con CI/CD, testing y mejores prácticas."
+      icon: "📋",
+      title: "Domina CLAUDE.md y organización",
+      description: "Estructura tus proyectos con CLAUDE.md y la carpeta .claude para que el agente entienda tu contexto y trabaje de forma consistente."
     },
     {
-      icon: "🎯",
-      title: "Templates listos para usar",
-      description: "Accede a templates probados en producción, prompts optimizados y workflows que puedes aplicar inmediatamente en tus proyectos."
+      icon: "🔄",
+      title: "Flujos agénticos efectivos",
+      description: "Aprende a planificar y guiar a Claude Code con workflows que maximizan resultados y minimizan iteraciones innecesarias."
     }
   ];
 
@@ -25,7 +25,7 @@ export default function Outcomes() {
             Lo que vas a lograr
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
-            Este curso te lleva de cero a experto en Claude Code con resultados medibles
+            Fundamentos sólidos para trabajar con Claude Code de forma profesional desde el inicio
           </p>
         </div>
 

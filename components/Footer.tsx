@@ -42,10 +42,10 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
           {/* About */}
           <div className="lg:col-span-2">
             <h3 className="font-editorial text-xl text-text mb-3">
-              Claude Code en serio
+              Primeros pasos con Claude Code
             </h3>
             <p className="text-muted text-sm leading-relaxed max-w-md">
-              El curso más completo en español para dominar Claude Code desde cero hasta producción. 
+              Aprende a configurar Claude Code correctamente y domina las buenas prácticas desde el inicio.
               100% gratuito, 100% práctico.
             </p>
           </div>

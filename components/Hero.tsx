@@ -11,11 +11,11 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="font-editorial text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] text-text">
-                Claude Code en serio: de tu terminal a producción
+                Primeros pasos con Claude Code: setup y buenas prácticas
               </h1>
               <p className="text-lg sm:text-xl text-muted leading-relaxed max-w-xl">
-                Domina Claude Code desde la configuración inicial hasta deployar proyectos reales en producción.
-                Empieza hoy, 100% gratuito en YouTube.
+                Aprende a configurar Claude Code correctamente, organizar tus proyectos con CLAUDE.md y dominar flujos agénticos desde el primer día.
+                100% gratuito en YouTube.
               </p>
             </div>
 

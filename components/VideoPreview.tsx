@@ -7,7 +7,7 @@ export default function VideoPreview() {
             Mira lo que vas a aprender
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
-            Un recorrido completo por el curso y todo lo que dominarás al finalizarlo
+            Setup profesional, organización con CLAUDE.md y flujos agénticos para trabajar como un experto
           </p>
         </div>
 

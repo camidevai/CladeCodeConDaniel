@@ -1,24 +1,24 @@
 export default function FinalProject() {
   const features = [
     {
-      icon: "🎨",
-      title: "Full-stack application",
-      description: "Frontend moderno con React/Next.js y backend con API REST o GraphQL"
+      icon: "📁",
+      title: "Templates de CLAUDE.md",
+      description: "Plantillas listas para usar en tus proyectos con las mejores prácticas incluidas"
     },
     {
-      icon: "🔐",
-      title: "Autenticación y base de datos",
-      description: "Sistema de usuarios completo con auth segura y persistencia de datos"
+      icon: "⚙️",
+      title: "Setup checklist completo",
+      description: "Lista de verificación paso a paso para configurar Claude Code sin errores"
     },
     {
-      icon: "✅",
-      title: "Testing completo",
-      description: "Suite de tests unitarios, integración y E2E con alta cobertura"
+      icon: "🔄",
+      title: "Workflows agénticos probados",
+      description: "Flujos de trabajo que puedes aplicar inmediatamente en tus proyectos"
     },
     {
-      icon: "🚢",
-      title: "Deploy a producción",
-      description: "CI/CD configurado y aplicación live en Vercel, Railway o similar"
+      icon: "🎯",
+      title: "Mejores prácticas documentadas",
+      description: "Guía de referencia rápida con tips y trucos para trabajar eficientemente"
     }
   ];
 
@@ -30,11 +30,11 @@ export default function FinalProject() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text">
-                Proyecto final: construye algo real
+                Lo que obtienes al completar el curso
               </h2>
               <p className="text-lg sm:text-xl text-muted leading-relaxed">
-                No es un tutorial más. Vas a construir una aplicación completa que puedes mostrar en tu portfolio, 
-                usar como base para tus proyectos o incluso convertir en un producto.
+                No solo teoría: te llevas templates, checklists y workflows que puedes aplicar inmediatamente
+                en tus proyectos reales.
               </p>
             </div>
 
@@ -67,36 +67,36 @@ export default function FinalProject() {
                 <div className="flex items-center gap-3 pb-4 border-b border-border">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
                     <svg className="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-medium text-text">Tu proyecto en producción</h4>
-                    <p className="text-sm text-muted">Listo para mostrar al mundo</p>
+                    <h4 className="font-medium text-text">Setup completo y funcional</h4>
+                    <p className="text-sm text-muted">Listo para usar en tus proyectos</p>
                   </div>
                 </div>
 
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 bg-bg rounded-lg">
-                    <span className="text-sm text-muted">Código en GitHub</span>
+                    <span className="text-sm text-muted">Claude Code configurado</span>
                     <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-bg rounded-lg">
-                    <span className="text-sm text-muted">Tests pasando</span>
+                    <span className="text-sm text-muted">CLAUDE.md estructurado</span>
                     <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-bg rounded-lg">
-                    <span className="text-sm text-muted">CI/CD configurado</span>
+                    <span className="text-sm text-muted">Carpeta .claude organizada</span>
                     <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-bg rounded-lg">
-                    <span className="text-sm text-muted">Live en producción</span>
+                    <span className="text-sm text-muted">Flujos agénticos listos</span>
                     <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>

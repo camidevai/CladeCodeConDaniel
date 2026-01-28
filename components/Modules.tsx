@@ -2,39 +2,33 @@ export default function Modules() {
   const modules = [
     {
       number: "01",
-      title: "Fundamentos y configuración",
-      description: "Instalación, setup del entorno, primeros comandos y configuración óptima de Claude Code para tu workflow.",
-      topics: ["Instalación y requisitos", "Configuración del workspace", "Primeros prompts efectivos", "Shortcuts y atajos esenciales"]
+      title: "Instalación y configuración inicial",
+      description: "Setup básico de Claude Code: instalación, requisitos del sistema y configuración inicial para empezar a trabajar.",
+      topics: ["Instalación paso a paso", "Requisitos del sistema", "Configuración básica", "Primeros comandos esenciales"]
     },
     {
       number: "02",
-      title: "Desarrollo asistido por IA",
-      description: "Técnicas avanzadas de prompting, refactoring, debugging y generación de código de calidad profesional.",
-      topics: ["Prompts que funcionan", "Refactoring inteligente", "Debugging con IA", "Code review automatizado"]
+      title: "CLAUDE.md y organización de instrucciones",
+      description: "Cómo estructurar instrucciones generales del proyecto para que Claude Code entienda tu contexto y estilo de trabajo.",
+      topics: ["Qué es CLAUDE.md", "Estructura recomendada", "Instrucciones efectivas", "Ejemplos prácticos"]
     },
     {
       number: "03",
-      title: "Arquitectura y diseño",
-      description: "Diseña sistemas escalables, patrones de arquitectura y mejores prácticas para proyectos grandes.",
-      topics: ["Patrones de diseño", "Arquitectura de aplicaciones", "Organización de código", "Documentación automática"]
+      title: "Carpeta .claude y componentes",
+      description: "Organización de archivos, componentes reutilizables y estructura de carpetas para proyectos escalables.",
+      topics: ["Estructura de .claude", "Componentes reutilizables", "Organización de archivos", "Mejores prácticas"]
     },
     {
       number: "04",
-      title: "Testing y calidad",
-      description: "Genera tests unitarios, de integración y E2E. Aprende a mantener alta cobertura y calidad de código.",
-      topics: ["Tests unitarios", "Tests de integración", "E2E testing", "Coverage y métricas"]
+      title: "Planificación y flujos agénticos",
+      description: "Cómo guiar a Claude Code con workflows efectivos: planificación, iteración y optimización de resultados.",
+      topics: ["Planificación de tareas", "Workflows efectivos", "Iteración inteligente", "Optimización de prompts"]
     },
     {
       number: "05",
-      title: "Git, CI/CD y deployment",
-      description: "Workflows de Git, integración continua, deployment automatizado y mejores prácticas de DevOps.",
-      topics: ["Git workflows", "GitHub Actions", "Deployment strategies", "Monitoreo y logs"]
-    },
-    {
-      number: "06",
-      title: "Proyecto final integrado",
-      description: "Construye una aplicación completa desde cero hasta producción aplicando todo lo aprendido.",
-      topics: ["Planning y arquitectura", "Desarrollo iterativo", "Testing completo", "Deploy a producción"]
+      title: "El futuro de la programación con agentes",
+      description: "Por qué adoptar agentes en CLI ahora te da ventaja competitiva y cómo seguir mejorando tu setup.",
+      topics: ["Tendencias en IA y desarrollo", "Ventajas competitivas", "Próximos pasos", "Recursos adicionales"]
     }
   ];
 
@@ -43,10 +37,10 @@ export default function Modules() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16 sm:mb-20">
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            Módulos del curso
+            Contenido del curso
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
-            6 módulos progresivos que te llevan de principiante a experto
+            5 temas fundamentales para dominar Claude Code desde el inicio
           </p>
         </div>
 

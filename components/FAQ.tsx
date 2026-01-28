@@ -8,15 +8,15 @@ export default function FAQ() {
   const faqs = [
     {
       question: "¿Necesito experiencia previa en programación?",
-      answer: "Se recomienda tener conocimientos básicos de programación y familiaridad con la terminal. Si ya sabes escribir código en cualquier lenguaje, este curso te ayudará a multiplicar tu productividad. Si eres principiante, podrás seguir el curso pero te tomará más tiempo."
+      answer: "Sí, se recomienda tener conocimientos básicos de programación y familiaridad con la terminal. Este curso asume que ya sabes programar y te enseña a configurar y usar Claude Code correctamente desde el inicio."
     },
     {
       question: "¿El curso es realmente gratuito?",
-      answer: "Sí, 100% gratuito en YouTube. Todo el contenido del curso está disponible sin costo. Los templates y recursos adicionales también son gratuitos, solo necesitas dejar tu email para recibirlos."
+      answer: "Sí, 100% gratuito en YouTube. Todo el contenido está disponible sin costo. Los templates y recursos adicionales también son gratuitos y de acceso directo."
     },
     {
       question: "¿Qué necesito para tomar el curso?",
-      answer: "Una computadora con acceso a internet, una cuenta de Claude (gratuita o Pro), y ganas de aprender. Recomendamos tener instalado VS Code o tu editor favorito, Git, y Node.js para seguir los ejemplos prácticos."
+      answer: "Una computadora con acceso a internet, una cuenta de Claude (gratuita o Pro), y conocimientos básicos de programación. Recomendamos tener instalado VS Code o tu editor favorito para seguir los ejemplos de configuración."
     },
     {
       question: "¿Cuánto tiempo me tomará completar el curso?",
