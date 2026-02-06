@@ -22,11 +22,14 @@ export default function Instructors() {
       name: "CamiDevAI",
       role: "AI Influencer & Partner",
       image: "/img/camidevai.png",
-      bio: "Partner en la Cámara Chilena de Inteligencia Artificial. Especializada en casos de uso prácticos de IA y automatización. Ayuda a profesionales y empresas a adoptar IA de forma efectiva en sus workflows diarios.",
+      bio: "Socia en la Cámara Chilena de Inteligencia Artificial. Especializada en casos de uso prácticos de IA y automatización. Ayuda a profesionales y empresas a adoptar IA de forma efectiva en sus workflows diarios.",
       highlights: [
-        "Partner en Cámara Chilena de IA",
-        "Experta en automatización",
-        "Casos de uso prácticos"
+        "Ingeniera en informatica con mension en ciberseguridad",
+        "certificadora en IA y ciberseguridad",
+        "Socia en Cámara Chilena de IA",
+        "Creadora de contenido de IA en rrss mostrando casos de uso prácticos",
+        
+        
       ],
       social: {
         linkedin: "https://www.linkedin.com/in/camilabanares/",
