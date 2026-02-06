@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Hero from "@/components/Hero";
+import Countdown from "@/components/Countdown";
 import VideoPreview from "@/components/VideoPreview";
 import Outcomes from "@/components/Outcomes";
 import TargetAudience from "@/components/TargetAudience";
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero onOpenEmailModal={() => setIsResourcesModalOpen(true)} />
+      <Countdown />
       <VideoPreview />
       <Outcomes />
       <TargetAudience />
