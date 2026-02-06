@@ -109,7 +109,44 @@ export default function Countdown() {
             </div>
           </div>
 
-          <div className="mt-8">
+          {/* Carrusel de horarios por país */}
+          <div className="mt-8 mb-6">
+            <p className="text-white/90 text-sm font-medium mb-3">
+              🕘 Horarios por país
+            </p>
+            <div className="relative overflow-hidden">
+              <div className="flex animate-scroll-infinite whitespace-nowrap">
+                {/* Primera copia de los horarios */}
+                <div className="flex gap-6 px-3">
+                  <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇨🇴 Colombia: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                </div>
+                {/* Segunda copia para loop infinito */}
+                <div className="flex gap-6 px-3">
+                  <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇨🇴 Colombia: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                  <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6">
             <a
               href="/inscripcion"
               className="inline-block bg-white text-accent px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-105"
@@ -119,7 +156,7 @@ export default function Countdown() {
           </div>
 
           <p className="text-white/70 text-sm mt-4">
-            🇨🇱 Hora de Chile (UTC-3) • Cupos limitados
+            Cupos limitados
           </p>
         </div>
       </div>
