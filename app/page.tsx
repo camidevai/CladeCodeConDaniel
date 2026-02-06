@@ -20,8 +20,8 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero onOpenEmailModal={() => setIsResourcesModalOpen(true)} />
       <Countdown />
+       <VideoPreview />
       <Instructors />
-      <VideoPreview />
       <Outcomes />
       <TargetAudience />
       <Modules />

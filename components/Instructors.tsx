@@ -28,6 +28,7 @@ export default function Instructors() {
         "certificadora en IA y ciberseguridad",
         "Socia en Cámara Chilena de IA",
         "Creadora de contenido de IA en rrss mostrando casos de uso prácticos",
+        "CMO de Informatik-ai"
         
         
       ],

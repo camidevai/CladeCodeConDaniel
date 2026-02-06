@@ -5,430 +5,638 @@
 
 ## 🎯 OBJETIVO DE LA ESTRATEGIA
 
-**Mantener engagement alto, educar progresivamente y crear anticipación para el curso.**
+**Mantener engagement alto, educar progresivamente y crear anticipación para el curso mediante videos naturales y personales de CamiDevAI.**
+
+**Formato principal:** 🎥 Videos cortos (60-90 segundos) + Recursos descargables mínimos
 
 **Fechas de entrega:** 23, 25, 27 Feb | 01, 03, 05, 07, 08, 09 Marzo (9 entregas)
+
+---
+
+## 🎬 FILOSOFÍA DE CONTENIDO
+
+### **Videos > PDFs**
+- ✅ **Videos:** Conexión personal, fácil de consumir, genera confianza
+- ✅ **PDFs:** Solo para recursos que necesitan ser guardados (checklists, templates)
+
+### **Estilo de Videos:**
+- 📱 Formato vertical (para WhatsApp/móvil)
+- ⏱️ Duración: 60-90 segundos máximo
+- 🗣️ CamiDevAI hablando directo a cámara (natural, sin guion rígido)
+- 🎨 Subtítulos siempre (muchos ven sin audio)
+- 💡 Un solo mensaje clave por video
 
 ---
 
 ## 📅 CALENDARIO COMPLETO DE RECURSOS
 
 ### **📌 DÍA 1: Domingo 23 de Febrero**
-**🎁 RECURSO:** Checklist de Pre-Requisitos
+**� VIDEO:** Bienvenida + Qué Necesitas Tener Listo
 
-**Qué enviar:**
+**Duración:** 90 segundos
+
+**Script para CamiDevAI:**
 ```
-🚀 ¡Bienvenidos al grupo oficial del Curso de Claude Code!
+[Mirando a cámara, sonriendo]
 
-Soy CamiDevAI y durante los próximos días voy a compartir recursos 
-EXCLUSIVOS para que llegues súper preparado a la clase.
+"¡Hola! Soy CamiDevAI y bienvenidos al grupo oficial del curso de Claude Code.
 
-📋 RECURSO #1: Checklist de Pre-Requisitos
+Durante los próximos días voy a estar compartiendo videos y recursos
+para que llegues SÚPER preparado a la clase con Daniel.
 
-Antes de empezar con Claude Code, asegúrate de tener:
+Hoy quiero que revises si tienes estas 3 cosas instaladas:
 
-✅ VS Code instalado (versión 1.85 o superior)
-✅ Node.js instalado (versión 18 o superior)
-✅ Git instalado y configurado
-✅ Cuenta de GitHub activa
-✅ Cuenta de Anthropic (para API key de Claude)
-✅ Extensión de Claude Code instalada en VS Code
+[Mostrar con los dedos]
+1. VS Code - La última versión
+2. Node.js - Versión 18 o superior
+3. La extensión de Claude Code en VS Code
 
-📥 DESCARGA EL CHECKLIST COMPLETO:
-[Link a PDF con checklist detallado + links de descarga]
+Si te falta algo, no te preocupes. Abajo te dejo la guía de instalación
+paso a paso.
 
-💡 TIP: Si aún no tienes algo de la lista, usa la guía de instalación 
-que está en la página del curso.
+Lo importante es que llegues con todo listo para que aproveches al
+MÁXIMO la clase.
 
-🔗 Guía de instalación: [link]
+Nos vemos en el próximo video el martes. ¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+🚀 ¡Bienvenidos al grupo oficial!
+
+� Soy CamiDevAI y quiero que llegues súper preparado a la clase.
+
+🎥 Mira este video (90 segundos):
+[VIDEO]
+
+📥 Guía de instalación completa:
+[Link a la página del curso /guia-instalacion]
 
 ---
 
-Próximo recurso: Martes 25 de Febrero 🎯
+Próximo video: Martes 25 🎯
 ```
 
 **Archivo a crear:**
-- `CHECKLIST_PREREQUISITOS.pdf` - Checklist visual con checkboxes y links
+- `VIDEO_01_BIENVENIDA.mp4` - Video vertical, 90 segundos, con subtítulos
 
 ---
 
 ### **📌 DÍA 2: Martes 25 de Febrero**
-**🎁 RECURSO:** Glosario de Términos Clave
+**� VIDEO:** Los 3 Conceptos Que DEBES Entender
 
-**Qué enviar:**
+**Duración:** 75 segundos
+
+**Script para CamiDevAI:**
 ```
-🧠 RECURSO #2: Glosario de Claude Code
+[Mirando a cámara, energética]
 
-Para que hablemos el mismo idioma en la clase, aquí están los 
-términos clave que vas a escuchar:
+"¡Hola de nuevo! Hoy te voy a explicar 3 conceptos que vas a escuchar
+TODO el tiempo en la clase.
 
-🔹 AGENTE: Un AI que puede ejecutar acciones (no solo responder)
-🔹 CLAUDE.md: Archivo de configuración que le dice a Claude cómo 
-   entender tu proyecto
-🔹 .claude/: Carpeta con componentes y prompts reutilizables
-🔹 FLUJO AGÉNTICO: Secuencia de tareas que Claude ejecuta 
-   automáticamente
-🔹 CONTEXT WINDOW: Cantidad de información que Claude puede 
-   "recordar" a la vez
-🔹 PROMPT ENGINEERING: Arte de escribir instrucciones efectivas 
-   para la IA
+[Mostrar con los dedos]
 
-📥 DESCARGA EL GLOSARIO COMPLETO:
-[Link a PDF con 20+ términos explicados con ejemplos]
+PRIMERO: Claude Code no es un chatbot. Es un AGENTE.
+¿La diferencia? Un chatbot solo responde. Un agente HACE cosas:
+edita archivos, ejecuta comandos, lee todo tu proyecto.
 
-💡 TIP: Imprime esto y tenlo a mano durante la clase.
+SEGUNDO: CLAUDE.md - Este archivo es como el manual de instrucciones
+de tu proyecto. Le dice a Claude qué tecnologías usas, cómo está
+organizado tu código, qué estilo prefieres.
+
+TERCERO: La carpeta .claude/ - Aquí guardas componentes y prompts
+reutilizables. Es como tener una biblioteca de atajos.
+
+Estos 3 conceptos son la BASE de todo. Entiéndelos bien y la clase
+va a tener mucho más sentido.
+
+Nos vemos el jueves con más. ¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+🧠 Los 3 conceptos clave de Claude Code
+
+Antes de la clase, necesitas entender estos 3 conceptos.
+
+🎥 Mira el video (75 segundos):
+[VIDEO]
+
+💡 Tip: Guarda este video para repasarlo después.
 
 ---
 
-Próximo recurso: Jueves 27 de Febrero 🎯
+Próximo video: Jueves 27 🎯
 ```
 
 **Archivo a crear:**
-- `GLOSARIO_CLAUDE_CODE.pdf` - Glosario visual con ejemplos
+- `VIDEO_02_CONCEPTOS_CLAVE.mp4` - Video vertical, 75 segundos, con subtítulos
 
 ---
 
 ### **📌 DÍA 3: Jueves 27 de Febrero**
-**🎁 RECURSO:** Template de CLAUDE.md Básico
+**� VIDEO:** Cómo Crear Tu Primer CLAUDE.md (Demo en Vivo)
 
-**Qué enviar:**
+**Duración:** 90 segundos
+
+**Script para CamiDevAI:**
 ```
-⚡ RECURSO #3: Tu Primer CLAUDE.md
+[Mirando a cámara, luego compartir pantalla]
 
-Este es EL archivo más importante para trabajar con Claude Code.
+"Hoy te voy a mostrar cómo crear tu primer archivo CLAUDE.md.
 
-🎯 ¿Qué hace CLAUDE.md?
-Le dice a Claude:
-- Qué tipo de proyecto es
-- Qué tecnologías usas
-- Cómo está organizado tu código
-- Qué estilo de código prefieres
+[Compartir pantalla de VS Code]
 
-📥 DESCARGA EL TEMPLATE:
-[Link a archivo CLAUDE.md con comentarios explicativos]
+Mira, es súper simple. Creas un archivo que se llama CLAUDE.md
+en la raíz de tu proyecto.
 
-💡 EJEMPLO REAL:
-```markdown
-# Mi Proyecto Web
+[Escribiendo en vivo]
 
-## Stack Tecnológico
-- Frontend: React + TypeScript
-- Backend: Node.js + Express
-- Base de datos: PostgreSQL
+Y le dices a Claude 3 cosas básicas:
 
-## Estructura del Proyecto
-- /src - Código fuente
-- /components - Componentes React
-- /api - Endpoints del backend
+UNO: Qué tecnologías usas. Por ejemplo: 'Este proyecto usa React
+y TypeScript'.
 
-## Estilo de Código
-- Usar TypeScript estricto
-- Preferir functional components
-- Comentarios en español
+DOS: Cómo está organizado. Por ejemplo: 'Los componentes están
+en /src/components'.
+
+TRES: Qué estilo prefieres. Por ejemplo: 'Usa functional components
+y comenta en español'.
+
+[Volver a cámara]
+
+Eso es todo. Con esto, Claude ya entiende tu proyecto desde el
+primer mensaje.
+
+Abajo te dejo un template para que lo copies y lo adaptes a tu proyecto.
+
+Pruébalo antes de la clase. Nos vemos el sábado. ¡Chao!"
+
+[Gesto de despedida]
 ```
 
-🔥 En la clase verás cómo Daniel usa esto para programar 10x más rápido.
+**Mensaje de WhatsApp:**
+```
+⚡ Tu primer archivo CLAUDE.md
+
+Hoy te muestro cómo crearlo en 90 segundos.
+
+🎥 Mira el video (demo en vivo):
+[VIDEO]
+
+📥 Template para copiar:
+[Link a TEMPLATE_CLAUDE_MD.md en GitHub]
+
+💡 Tarea: Crea tu CLAUDE.md antes del sábado.
 
 ---
 
-Próximo recurso: Sábado 01 de Marzo 🎯
+Próximo video: Sábado 01 🎯
 ```
 
-**Archivo a crear:**
-- `TEMPLATE_CLAUDE_MD.md` - Template comentado y listo para usar
+**Archivos a crear:**
+- `VIDEO_03_CLAUDE_MD_DEMO.mp4` - Video con screen recording + cámara
+- `TEMPLATE_CLAUDE_MD.md` - Template básico comentado
 
 ---
 
 ### **📌 DÍA 4: Sábado 01 de Marzo**
-**🎁 RECURSO:** 10 Prompts Poderosos para Claude Code
+**� VIDEO:** Los 3 Prompts Que Más Uso (Con Ejemplos Reales)
 
-**Qué enviar:**
+**Duración:** 90 segundos
+
+**Script para CamiDevAI:**
 ```
-🔥 RECURSO #4: 10 Prompts que Todo Dev Debe Conocer
+[Mirando a cámara]
 
-Estos prompts te van a ahorrar HORAS de trabajo:
+"Hoy te voy a mostrar los 3 prompts que YO más uso cuando programo
+con Claude Code.
 
-1️⃣ "Analiza este código y sugiere mejoras de performance"
-2️⃣ "Refactoriza esta función para que sea más legible"
-3️⃣ "Genera tests unitarios para este componente"
-4️⃣ "Documenta este código con JSDoc/TypeDoc"
-5️⃣ "Encuentra y corrige bugs potenciales en este archivo"
-6️⃣ "Convierte este código a TypeScript"
-7️⃣ "Optimiza estas queries de base de datos"
-8️⃣ "Crea un componente reutilizable basado en este código"
-9️⃣ "Explica qué hace este código como si tuviera 5 años"
-🔟 "Genera un README.md profesional para este proyecto"
+[Compartir pantalla]
 
-📥 DESCARGA LA GUÍA COMPLETA:
-[Link a PDF con cada prompt + ejemplo de uso + resultado esperado]
+PROMPT #1: 'Refactoriza este código para que sea más legible'
 
-💡 TIP: Guarda estos prompts en tu carpeta .claude/ para usarlos 
-siempre que los necesites.
+[Mostrar ejemplo antes/después]
+
+Mira cómo Claude toma un código feo y lo deja súper limpio.
+
+PROMPT #2: 'Genera tests unitarios para esta función'
+
+[Mostrar ejemplo]
+
+En 10 segundos tengo tests completos. Antes me tomaba 30 minutos.
+
+PROMPT #3: 'Explica qué hace este código paso a paso'
+
+[Mostrar ejemplo]
+
+Esto es ORO cuando estás leyendo código de otra persona.
+
+[Volver a cámara]
+
+Estos 3 prompts me ahorran HORAS cada semana.
+
+Pruébalos hoy mismo y me cuentas cómo te fue.
+
+Nos vemos el lunes. ¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+🔥 Los 3 prompts que más uso
+
+Te muestro ejemplos REALES de cómo los uso.
+
+🎥 Mira el video (90 segundos):
+[VIDEO]
+
+💡 Reto: Prueba al menos 1 de estos prompts hoy.
 
 ---
 
-Próximo recurso: Lunes 03 de Marzo 🎯
+Próximo video: Lunes 03 🎯
 ```
 
 **Archivo a crear:**
-- `10_PROMPTS_PODEROSOS.pdf` - Cada prompt con ejemplo antes/después
+- `VIDEO_04_PROMPTS_FAVORITOS.mp4` - Video con screen recording + ejemplos reales
 
 ---
 
 ### **📌 DÍA 5: Lunes 03 de Marzo**
-**🎁 RECURSO:** Estructura de Carpeta .claude Profesional
+**� VIDEO:** Mi Error Más Grande con Claude Code (Y Cómo Lo Arreglé)
 
-**Qué enviar:**
+**Duración:** 75 segundos
+
+**Script para CamiDevAI:**
 ```
-📁 RECURSO #5: Organiza tu .claude/ como un PRO
+[Mirando a cámara, tono confesional]
 
-La carpeta .claude/ es tu biblioteca de componentes reutilizables.
+"Hoy te voy a contar mi error MÁS GRANDE cuando empecé con Claude Code.
 
-🎯 ESTRUCTURA RECOMENDADA:
+Al principio, yo le pedía a Claude que hiciera TODO.
+'Crea toda la app', 'Haz todo el backend'.
+
+¿El resultado? Código genérico que no servía.
+
+[Pausa]
+
+Hasta que entendí esto:
+
+Claude Code es INCREÍBLE para tareas específicas y repetitivas.
+Pero TÚ tienes que hacer la arquitectura, tú decides cómo se
+estructura el proyecto.
+
+[Compartir pantalla brevemente]
+
+Ahora yo hago esto:
+- YO diseño la estructura
+- Claude genera el código repetitivo
+- YO reviso y ajusto
+
+[Volver a cámara]
+
+Desde que cambié esto, mi productividad se multiplicó por 10.
+
+No cometas mi error. Usa Claude como tu asistente, no como tu jefe.
+
+Nos vemos el miércoles. ¡Chao!"
+
+[Gesto de despedida]
 ```
-.claude/
-├── prompts/
-│   ├── refactor.md
-│   ├── testing.md
-│   └── documentation.md
-├── components/
-│   ├── react-component.md
-│   ├── api-endpoint.md
-│   └── database-model.md
-├── workflows/
-│   ├── new-feature.md
-│   ├── bug-fix.md
-│   └── code-review.md
-└── config/
-    └── preferences.md
+
+**Mensaje de WhatsApp:**
 ```
+⚠️ Mi error más grande con Claude Code
 
-📥 DESCARGA EL TEMPLATE COMPLETO:
-[Link a .zip con estructura de carpetas + archivos de ejemplo]
+Y cómo lo arreglé (esto cambió todo para mí).
 
-💡 EJEMPLO DE USO:
-Cuando necesites crear un componente React, solo dices:
-"Usa el template de .claude/components/react-component.md para crear 
-un botón con loading state"
+🎥 Mira el video (75 segundos):
+[VIDEO]
 
-🔥 Daniel te mostrará en la clase cómo esto te ahorra 80% del tiempo.
+💬 Pregunta: ¿Tú cómo usas Claude? ¿Para todo o para tareas específicas?
 
 ---
 
-Próximo recurso: Miércoles 05 de Marzo 🎯
+Próximo video: Miércoles 05 🎯
 ```
 
 **Archivo a crear:**
-- `ESTRUCTURA_CLAUDE_FOLDER.zip` - Carpeta completa con templates
+- `VIDEO_05_MI_ERROR.mp4` - Video personal, tono confesional
 
 ---
 
 ### **📌 DÍA 6: Miércoles 05 de Marzo**
-**🎁 RECURSO:** Casos de Uso Reales (Antes/Después)
+**� VIDEO:** Caso Real: Cómo Ahorré 6 Horas en Un Proyecto
 
-**Qué enviar:**
+**Duración:** 90 segundos
+
+**Script para CamiDevAI:**
 ```
-🎬 RECURSO #6: Casos de Uso Reales
+[Mirando a cámara, energética]
 
-Mira cómo Claude Code transforma el trabajo de developers reales:
+"Hoy te voy a contar un caso REAL de cómo Claude Code me ahorró
+6 horas en un proyecto.
 
-📊 CASO 1: Startup de E-commerce
-❌ ANTES: 2 semanas para crear sistema de pagos
-✅ DESPUÉS: 3 días con Claude Code
-💰 AHORRO: 11 días de desarrollo
+[Compartir pantalla]
 
-📊 CASO 2: Freelancer Full-Stack
-❌ ANTES: 8 horas debuggeando un bug complejo
-✅ DESPUÉS: 45 minutos con Claude Code
-💰 AHORRO: 7+ horas
+La semana pasada tenía que crear un dashboard con 12 componentes
+diferentes: tablas, gráficos, cards, formularios...
 
-📊 CASO 3: Equipo de Desarrollo
-❌ ANTES: 1 semana escribiendo tests
-✅ DESPUÉS: 1 día con Claude Code
-💰 AHORRO: 4 días de trabajo
+ANTES, esto me tomaba:
+- 4 horas creando los componentes
+- 2 horas escribiendo tests
+- 1 hora documentando
 
-📥 DESCARGA LOS CASOS COMPLETOS:
-[Link a PDF con 5 casos de uso + código antes/después + testimonios]
+Total: 7 horas.
 
-💡 PREGUNTA: ¿En cuál de estos casos te ves reflejado?
-Responde en el grupo 👇
+[Mostrar código]
+
+CON Claude Code:
+- Le di el diseño en Figma
+- Le pedí que generara los componentes con TypeScript
+- Le pedí que generara los tests
+- Le pedí que documentara todo
+
+Total: 1 hora. Y el código quedó MEJOR que si lo hubiera hecho yo.
+
+[Volver a cámara]
+
+¿La diferencia? 6 horas ahorradas que usé para trabajar en la lógica
+de negocio, que es lo que realmente importa.
+
+Imagina cuánto tiempo puedes ahorrar TÚ.
+
+Nos vemos el viernes. ¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+🎬 Caso real: 6 horas ahorradas
+
+Te muestro EXACTAMENTE cómo lo hice.
+
+🎥 Mira el video (90 segundos):
+[VIDEO]
+
+� Pregunta: ¿Cuántas horas crees que podrías ahorrar TÚ?
 
 ---
 
-Próximo recurso: Viernes 07 de Marzo 🎯
+Próximo video: Viernes 07 🎯
 ```
 
 **Archivo a crear:**
-- `CASOS_DE_USO_REALES.pdf` - Casos con métricas y testimonios
+- `VIDEO_06_CASO_REAL.mp4` - Video con screen recording mostrando el proyecto real
 
 ---
 
 ### **📌 DÍA 7: Viernes 07 de Marzo**
-**🎁 RECURSO:** Cheat Sheet de Atajos y Comandos
+**� VIDEO:** Los 3 Atajos Que Uso 100 Veces al Día
 
-**Qué enviar:**
+**Duración:** 60 segundos
+
+**Script para CamiDevAI:**
 ```
-⚡ RECURSO #7: Cheat Sheet de Claude Code
+[Mirando a cámara, rápida y energética]
 
-Los atajos que usan los developers PRO:
+"Hoy te voy a mostrar los 3 atajos que uso literalmente 100 veces al día.
 
-⌨️ ATAJOS DE TECLADO:
-• Cmd/Ctrl + Shift + P → Abrir Claude Code
-• Cmd/Ctrl + K → Generar código inline
-• Cmd/Ctrl + L → Abrir chat de Claude
-• Cmd/Ctrl + I → Editar con instrucciones
+[Compartir pantalla de VS Code]
 
-🤖 COMANDOS RÁPIDOS:
-• /edit → Editar archivo actual
-• /add → Agregar nuevo archivo
-• /fix → Corregir errores
-• /test → Generar tests
-• /docs → Generar documentación
-• /review → Code review
+ATAJO #1: Cmd/Ctrl + K
 
-📥 DESCARGA EL CHEAT SHEET:
-[Link a PDF formato poster para imprimir]
+[Demostrar en vivo]
 
-💡 TIP: Imprime esto y pégalo al lado de tu monitor.
+Esto abre el generador de código inline. Escribes lo que quieres y
+Claude lo genera AL INSTANTE.
 
-🎯 RETO: Memoriza al menos 3 atajos antes de la clase.
+ATAJO #2: Cmd/Ctrl + L
+
+[Demostrar en vivo]
+
+Abre el chat de Claude sin salir del código. Súper rápido.
+
+ATAJO #3: /edit
+
+[Demostrar en vivo]
+
+Escribes /edit y Claude edita el archivo que estás viendo.
+No tienes que explicarle cuál archivo.
+
+[Volver a cámara]
+
+Estos 3 atajos son los que más uso. Memorízalos AHORA porque en la
+clase con Daniel los vas a necesitar.
+
+Nos vemos mañana. ¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+⚡ Los 3 atajos que uso 100 veces al día
+
+Te los muestro en acción (en vivo).
+
+🎥 Mira el video (60 segundos):
+[VIDEO]
+
+💡 Tarea: Practica estos 3 atajos HOY.
 
 ---
 
-Próximo recurso: Sábado 08 de Marzo 🎯
+Próximo video: Sábado 08 🎯
 ```
 
 **Archivo a crear:**
-- `CHEAT_SHEET_CLAUDE_CODE.pdf` - Poster visual con atajos
+- `VIDEO_07_ATAJOS.mp4` - Video con screen recording demostrando atajos en vivo
 
 ---
 
 ### **📌 DÍA 8: Sábado 08 de Marzo**
-**🎁 RECURSO:** Errores Comunes y Cómo Evitarlos
+**� VIDEO:** El Error Que Cometen el 90% de los Principiantes
 
-**Qué enviar:**
+**Duración:** 75 segundos
+
+**Script para CamiDevAI:**
 ```
-⚠️ RECURSO #8: Los 7 Errores Más Comunes
+[Mirando a cámara, seria pero amigable]
 
-Aprende de los errores de otros (para que no los cometas tú):
+"Hoy te voy a contar el error que cometen el 90% de las personas
+cuando empiezan con Claude Code.
 
-❌ ERROR #1: No configurar CLAUDE.md
-✅ SOLUCIÓN: Siempre empieza creando este archivo
+[Pausa dramática]
 
-❌ ERROR #2: Prompts demasiado vagos
-✅ SOLUCIÓN: Sé específico: "Crea un botón azul con hover effect" 
-   vs "Crea un botón"
+El error es: NO REVISAR EL CÓDIGO QUE CLAUDE GENERA.
 
-❌ ERROR #3: No revisar el código generado
-✅ SOLUCIÓN: SIEMPRE lee y entiende lo que Claude genera
+Muchos piensan: 'Claude es IA, debe estar perfecto'.
 
-❌ ERROR #4: Usar Claude para TODO
-✅ SOLUCIÓN: Úsalo para tareas repetitivas, tú haz la arquitectura
+[Negar con la cabeza]
 
-❌ ERROR #5: No organizar la carpeta .claude/
-✅ SOLUCIÓN: Mantén templates organizados por categoría
+NO. Claude es increíble, pero no es perfecto.
 
-❌ ERROR #6: Ignorar el context window
-✅ SOLUCIÓN: Divide tareas grandes en subtareas pequeñas
+[Compartir pantalla]
 
-❌ ERROR #7: No iterar en los prompts
-✅ SOLUCIÓN: Si el resultado no es perfecto, refina el prompt
+Mira este ejemplo real:
 
-📥 DESCARGA LA GUÍA COMPLETA:
-[Link a PDF con cada error + ejemplo + solución detallada]
+[Mostrar código generado por Claude con un bug sutil]
 
-💡 PREGUNTA: ¿Cuál de estos errores crees que cometerías?
+Claude generó este código. Se ve bien, ¿verdad?
+
+Pero tiene un bug aquí [señalar]. Si no lo revisas, tu app se rompe
+en producción.
+
+[Volver a cámara]
+
+La regla de oro:
+
+Claude GENERA el código.
+TÚ lo REVISAS y lo ENTIENDES.
+
+Nunca, NUNCA uses código que no entiendes.
+
+Mañana es el último video antes de la clase. No te lo pierdas.
+
+¡Chao!"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+⚠️ El error del 90% de los principiantes
+
+No cometas este error (es peligroso).
+
+🎥 Mira el video (75 segundos):
+[VIDEO]
+
+💡 Regla de oro: Siempre revisa el código que Claude genera.
 
 ---
 
-🔥 MAÑANA: Recurso final antes de la clase 🎯
+🔥 MAÑANA: Video final antes de la clase 🎯
 ```
 
 **Archivo a crear:**
-- `ERRORES_COMUNES_CLAUDE_CODE.pdf` - Guía con ejemplos visuales
+- `VIDEO_08_ERROR_COMUN.mp4` - Video con ejemplo real de código con bug
 
 ---
 
 ### **📌 DÍA 9: Domingo 09 de Marzo**
-**🎁 RECURSO:** Guía de Preparación para la Clase + Recordatorio
+**� VIDEO:** Nos Vemos MAÑANA - Últimos Consejos
 
-**Qué enviar:**
+**Duración:** 90 segundos
+
+**Script para CamiDevAI:**
 ```
-🎓 RECURSO #9: Checklist Final Pre-Clase
+[Mirando a cámara, emocionada]
 
-¡MAÑANA ES EL GRAN DÍA! 🚀
+"¡Hola! Mañana es el gran día y estoy SÚPER emocionada.
 
-📋 CHECKLIST FINAL:
+Antes de la clase con Daniel, quiero darte 3 consejos finales:
 
-TÉCNICO:
-✅ VS Code abierto y funcionando
-✅ Claude Code instalado y configurado
-✅ Proyecto de prueba creado
-✅ CLAUDE.md básico listo
-✅ Carpeta .claude/ creada
-✅ Internet estable
+[Mostrar con los dedos]
 
-MATERIALES:
-✅ Libreta y lápiz para notas
-✅ Cheat sheet impreso
-✅ Agua/café cerca
-✅ Notificaciones silenciadas
+CONSEJO #1: Llega con VS Code abierto y Claude Code instalado.
+No pierdas tiempo instalando durante la clase.
 
-MINDSET:
-✅ Llegar con preguntas
-✅ Participar activamente
-✅ Tomar notas de tips de Daniel
-✅ Probar en tiempo real
+CONSEJO #2: Ten un proyecto de prueba listo. Puede ser algo simple,
+pero que sea TUYO. Así practicas con algo real.
 
-📥 DESCARGA EL CHECKLIST FINAL:
-[Link a PDF con checklist + agenda de la clase]
+CONSEJO #3: Participa. Haz preguntas. Daniel es increíble respondiendo
+y quiere que aprendas.
+
+[Pausa, tono más personal]
+
+Mira, yo sé que puede ser intimidante aprender algo nuevo.
+Pero créeme, Claude Code va a cambiar la forma en que programas.
+
+Y Daniel es el MEJOR para enseñarte esto.
+
+[Compartir pantalla brevemente con los detalles]
+
+La clase es mañana a las [HORA] hora de Chile.
+Link: [LINK]
+
+[Volver a cámara, sonriendo]
+
+Nos vemos mañana. Llega con energía y ganas de aprender.
+
+¡Esto va a estar increíble!
+
+Chao 💜"
+
+[Gesto de despedida]
+```
+
+**Mensaje de WhatsApp:**
+```
+🎓 ¡MAÑANA ES EL GRAN DÍA!
+
+Últimos consejos antes de la clase con Daniel.
+
+🎥 Mira el video (90 segundos):
+[VIDEO]
 
 ---
 
-⏰ RECORDATORIO DE LA CLASE:
+⏰ RECORDATORIO:
 
-📅 Fecha: [FECHA EXACTA]
+📅 Fecha: Lunes 10 de Marzo
 🕐 Hora: [HORA EXACTA] (Hora de Chile)
-📍 Dónde: [LINK DE ZOOM/YOUTUBE]
-⏱️ Duración: [DURACIÓN]
-
-🎯 QUÉ TRAER:
-• Ganas de aprender
-• Proyecto personal (opcional) para practicar
-• Preguntas específicas
+📍 Link: [LINK DE LA CLASE]
 
 ---
 
-💬 ÚLTIMA PREGUNTA ANTES DE LA CLASE:
-¿Qué es lo que MÁS quieres aprender mañana?
-
-Responde en el grupo 👇
+✅ CHECKLIST RÁPIDO:
+• VS Code instalado ✓
+• Claude Code configurado ✓
+• Proyecto de prueba listo ✓
+• Ganas de aprender ✓
 
 ---
 
-🔥 NOS VEMOS MAÑANA EN LA CLASE 🔥
+💬 ¿Qué es lo que MÁS quieres aprender mañana?
+
+Responde aquí 👇
+
+---
+
+🔥 NOS VEMOS MAÑANA 🔥
 
 - CamiDevAI 💜
 ```
 
 **Archivo a crear:**
-- `CHECKLIST_FINAL_PRE_CLASE.pdf` - Checklist + agenda de la clase
+- `VIDEO_09_NOS_VEMOS_MANANA.mp4` - Video personal y motivacional
 
 ---
 
 ## 📊 RESUMEN DE RECURSOS
 
-| Día | Fecha | Recurso | Formato | Objetivo |
-|-----|-------|---------|---------|----------|
-| 1 | 23 Feb | Checklist Pre-Requisitos | PDF | Preparación técnica |
-| 2 | 25 Feb | Glosario de Términos | PDF | Educación básica |
-| 3 | 27 Feb | Template CLAUDE.md | .md | Herramienta práctica |
-| 4 | 01 Mar | 10 Prompts Poderosos | PDF | Quick wins |
-| 5 | 03 Mar | Estructura .claude/ | ZIP | Organización |
-| 6 | 05 Mar | Casos de Uso Reales | PDF | Inspiración/Prueba social |
-| 7 | 07 Mar | Cheat Sheet | PDF | Referencia rápida |
-| 8 | 08 Mar | Errores Comunes | PDF | Prevención |
-| 9 | 09 Mar | Checklist Final | PDF | Preparación final |
+| Día | Fecha | Recurso | Formato | Duración | Objetivo |
+|-----|-------|---------|---------|----------|----------|
+| 1 | 23 Feb | Bienvenida + Pre-Requisitos | 🎥 Video | 90s | Preparación técnica |
+| 2 | 25 Feb | 3 Conceptos Clave | 🎥 Video | 75s | Educación básica |
+| 3 | 27 Feb | Cómo Crear CLAUDE.md | 🎥 Video + Template | 90s | Herramienta práctica |
+| 4 | 01 Mar | 3 Prompts Favoritos | 🎥 Video | 90s | Quick wins |
+| 5 | 03 Mar | Mi Error Más Grande | 🎥 Video | 75s | Lección aprendida |
+| 6 | 05 Mar | Caso Real (6 horas ahorradas) | 🎥 Video | 90s | Prueba social |
+| 7 | 07 Mar | 3 Atajos Esenciales | 🎥 Video | 60s | Productividad |
+| 8 | 08 Mar | Error del 90% | 🎥 Video | 75s | Prevención |
+| 9 | 09 Mar | Nos Vemos Mañana | 🎥 Video | 90s | Motivación final |
+
+**Total:** 9 videos (12 minutos de contenido) + 1 template descargable
 
 ---
 
@@ -436,73 +644,108 @@ Responde en el grupo 👇
 
 ### **Estructura Consistente:**
 ```
-[EMOJI] RECURSO #[NÚMERO]: [TÍTULO]
+[EMOJI] [TÍTULO DEL VIDEO]
 
-[Introducción breve - 1-2 líneas]
+[Introducción breve - 1 línea]
 
-[Contenido principal con bullets/ejemplos]
+🎥 Mira el video ([duración]):
+[VIDEO]
 
-📥 DESCARGA [NOMBRE DEL RECURSO]:
-[Link]
-
-💡 TIP: [Consejo práctico]
+💡 [Tip/Reto/Pregunta para engagement]
 
 ---
 
-Próximo recurso: [FECHA] 🎯
+Próximo video: [FECHA] 🎯
 ```
 
 ### **Emojis Estratégicos:**
-- 🎁 = Recurso nuevo
-- 📥 = Descarga
+- � = Video
 - 💡 = Tip/Consejo
 - 🔥 = Urgencia/Importancia
 - ✅ = Checklist/Completado
 - ⚡ = Rápido/Poderoso
 - 🎯 = Objetivo/Meta
 - 💬 = Pregunta/Interacción
+- 📥 = Descarga (solo para template del día 3)
 
 ---
 
 ## 💡 ESTRATEGIAS DE ENGAGEMENT
 
-### **1. Preguntas Interactivas**
-Días 6, 8, 9: Hacer preguntas para generar conversación en el grupo
+### **1. Videos Cortos y Consumibles**
+- 60-90 segundos máximo
+- Un solo mensaje clave por video
+- Formato vertical para móvil
+- Subtítulos siempre (muchos ven sin audio)
 
-### **2. Progresión Lógica**
-- Días 1-3: Fundamentos y preparación
-- Días 4-6: Herramientas y casos prácticos
-- Días 7-9: Optimización y preparación final
+### **2. Preguntas Interactivas**
+Días 5, 6, 9: Hacer preguntas para generar conversación en el grupo
 
-### **3. Valor Incremental**
-Cada recurso debe ser **accionable** y **útil por sí solo**
+### **3. Progresión Lógica**
+- Días 1-3: Fundamentos (conceptos, setup, primer archivo)
+- Días 4-6: Práctica (prompts, errores, casos reales)
+- Días 7-9: Maestría (atajos, prevención, motivación)
 
-### **4. Anticipación**
-Siempre terminar con "Próximo recurso: [fecha]"
+### **4. Tono Personal y Auténtico**
+- CamiDevAI habla desde su experiencia real
+- Comparte errores y aprendizajes
+- Tono conversacional, no corporativo
+
+### **5. Anticipación**
+Siempre terminar con "Próximo video: [fecha]"
 
 ---
 
 ## 📁 ARCHIVOS A CREAR
 
-1. `CHECKLIST_PREREQUISITOS.pdf`
-2. `GLOSARIO_CLAUDE_CODE.pdf`
-3. `TEMPLATE_CLAUDE_MD.md`
-4. `10_PROMPTS_PODEROSOS.pdf`
-5. `ESTRUCTURA_CLAUDE_FOLDER.zip`
-6. `CASOS_DE_USO_REALES.pdf`
-7. `CHEAT_SHEET_CLAUDE_CODE.pdf`
-8. `ERRORES_COMUNES_CLAUDE_CODE.pdf`
-9. `CHECKLIST_FINAL_PRE_CLASE.pdf`
+### **Videos (9 total):**
+1. `VIDEO_01_BIENVENIDA.mp4` - Bienvenida + pre-requisitos (90s)
+2. `VIDEO_02_CONCEPTOS_CLAVE.mp4` - 3 conceptos fundamentales (75s)
+3. `VIDEO_03_CLAUDE_MD_DEMO.mp4` - Demo creando CLAUDE.md (90s)
+4. `VIDEO_04_PROMPTS_FAVORITOS.mp4` - 3 prompts con ejemplos (90s)
+5. `VIDEO_05_MI_ERROR.mp4` - Error personal y lección (75s)
+6. `VIDEO_06_CASO_REAL.mp4` - Caso real con métricas (90s)
+7. `VIDEO_07_ATAJOS.mp4` - 3 atajos en acción (60s)
+8. `VIDEO_08_ERROR_COMUN.mp4` - Error del 90% con ejemplo (75s)
+9. `VIDEO_09_NOS_VEMOS_MANANA.mp4` - Motivación final (90s)
+
+### **Recursos Descargables (1 total):**
+1. `TEMPLATE_CLAUDE_MD.md` - Template básico comentado (Día 3)
+
+---
+
+## � ESPECIFICACIONES TÉCNICAS DE VIDEOS
+
+### **Formato:**
+- **Orientación:** Vertical (9:16) o Cuadrado (1:1) - Optimizado para WhatsApp/móvil
+- **Resolución:** 1080x1920 (vertical) o 1080x1080 (cuadrado)
+- **Duración:** 60-90 segundos máximo
+- **Formato de archivo:** MP4 (H.264)
+- **Tamaño máximo:** 16 MB (límite de WhatsApp)
+- **Bitrate:** 2-3 Mbps
+
+### **Producción:**
+- **Cámara:** Smartphone es suficiente (buena iluminación natural)
+- **Audio:** Micrófono de solapa o AirPods (audio limpio)
+- **Iluminación:** Luz natural de frente o ring light
+- **Fondo:** Limpio, sin distracciones
+- **Edición:** CapCut, InShot, o Adobe Premiere
+
+### **Subtítulos:**
+- **Obligatorios** (muchos ven sin audio)
+- **Estilo:** Palabras clave en MAYÚSCULAS para énfasis
+- **Color:** Blanco con borde negro (legible en cualquier fondo)
+- **Posición:** Centro-inferior
 
 ---
 
 ## 🎯 MÉTRICAS DE ÉXITO
 
 **Objetivos:**
-- ✅ **Tasa de apertura >80%** (personas que leen los mensajes)
-- ✅ **Tasa de descarga >60%** (personas que descargan recursos)
-- ✅ **Engagement >40%** (personas que responden preguntas)
+- ✅ **Tasa de visualización >85%** (personas que ven los videos)
+- ✅ **Tasa de engagement >50%** (personas que responden preguntas)
 - ✅ **Retención >90%** (personas que llegan a la clase)
+- ✅ **Compartidos >20%** (personas que comparten videos)
 
 ---
 
