@@ -33,15 +33,21 @@ export default function VideoPreview() {
         <div className="mt-8 text-center">
           <a
             href={`https://wa.me/?text=${encodeURIComponent(
-              '🚀 ¡Mira este curso GRATUITO de Claude Code!\n\n' +
-              'Aprende a programar 10x más rápido con IA 🤖\n\n' +
+              '🚀 ¡Curso GRATUITO de Claude Code!\n\n' +
+              '📅 FECHA: Domingo 23 de Marzo, 2026\n' +
+              '⏰ HORA: 21:00 hrs (Chile/Argentina)\n' +
+              '📍 DÓNDE: YouTube en vivo\n\n' +
+              '🤖 Aprende a programar 10x más rápido con IA\n\n' +
               '✅ Setup profesional desde día 1\n' +
               '✅ Organización con CLAUDE.md\n' +
               '✅ Flujos agénticos efectivos\n' +
               '✅ Proyecto real en producción\n\n' +
-              '👨‍💻 Con Daniel Ávila (17k+ GitHub stars) y CamiDevAI\n\n' +
-              '🎁 100% gratuito en YouTube\n\n' +
-              'Inscríbete aquí: https://curso-claude-code.netlify.app/'
+              '👨‍💻 Instructores:\n' +
+              '• Daniel Ávila (17k+ GitHub stars)\n' +
+              '• CamiDevAI\n\n' +
+              '🎁 100% GRATUITO\n\n' +
+              '👉 Inscríbete aquí:\n' +
+              'https://curso-claude-code.netlify.app/'
             )}`}
             target="_blank"
             rel="noopener noreferrer"
