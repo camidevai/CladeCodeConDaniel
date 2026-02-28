@@ -47,20 +47,20 @@ export default function ResourcesModal({ isOpen, onClose }: ResourcesModalProps)
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-text/60 backdrop-blur-sm animate-fadeIn"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-text/60 backdrop-blur-sm animate-fadeIn overflow-y-auto"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
     >
       <div
-        className="bg-surface border border-border rounded-2xl shadow-2xl max-w-lg w-full p-8 relative animate-slideUp"
+        className="bg-surface border border-border rounded-2xl shadow-2xl max-w-lg w-full p-5 sm:p-8 relative animate-slideUp my-auto max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 w-8 h-8 rounded-full bg-bg hover:bg-border flex items-center justify-center transition-colors duration-200"
+          className="sticky top-0 float-right w-8 h-8 rounded-full bg-bg hover:bg-border flex items-center justify-center transition-colors duration-200 z-10 -mt-1 -mr-1 sm:mt-0 sm:mr-0"
           aria-label="Cerrar modal"
         >
           <svg className="w-5 h-5 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -68,36 +68,36 @@ export default function ResourcesModal({ isOpen, onClose }: ResourcesModalProps)
           </svg>
         </button>
 
-        <div className="mb-6">
-          <h3 id="modal-title" className="font-editorial text-2xl sm:text-3xl text-text mb-2">
+        <div className="mb-6 pr-8">
+          <h3 id="modal-title" className="font-editorial text-xl sm:text-2xl lg:text-3xl text-text mb-2">
             Templates y recursos gratuitos
           </h3>
-          <p className="text-muted">
+          <p className="text-sm sm:text-base text-muted">
             Accede a herramientas y contenido exclusivo de Daniel Ávila para acelerar tu aprendizaje
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3 sm:space-y-4">
           {resources.map((resource, index) => (
             <a
               key={index}
               href={resource.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-bg border border-border rounded-xl p-6 hover:border-accent hover:shadow-lg transition-all duration-200 group"
+              className="block bg-bg border border-border rounded-xl p-4 sm:p-6 hover:border-accent hover:shadow-lg transition-all duration-200 group"
             >
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition-all duration-200">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition-all duration-200">
                   {resource.icon}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h4 className="font-medium text-lg text-text mb-1 flex items-center gap-2">
-                    {resource.title}
+                  <h4 className="font-medium text-base sm:text-lg text-text mb-1 flex items-center gap-2 flex-wrap">
+                    <span>{resource.title}</span>
                     <svg className="w-4 h-4 text-muted group-hover:text-accent transition-colors duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                   </h4>
-                  <p className="text-sm text-muted">
+                  <p className="text-xs sm:text-sm text-muted">
                     {resource.description}
                   </p>
                 </div>
@@ -106,7 +106,7 @@ export default function ResourcesModal({ isOpen, onClose }: ResourcesModalProps)
           ))}
         </div>
 
-        <div className="mt-6 pt-6 border-t border-border">
+        <div className="mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-border">
           <p className="text-xs text-muted text-center">
             Recursos 100% gratuitos. Haz clic en cualquier tarjeta para acceder.
           </p>

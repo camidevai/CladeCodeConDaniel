@@ -57,105 +57,105 @@ export default function Countdown() {
   }
 
   return (
-    <div className="bg-gradient-to-r from-accent to-orange-600 py-8 sm:py-12">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+    <div className="bg-gradient-to-r from-accent to-orange-600 py-6 xs:py-8 sm:py-12">
+      <div className="max-w-7xl mx-auto px-4 xs:px-6 sm:px-8 lg:px-12">
         <div className="text-center">
-          <p className="text-white/90 text-sm sm:text-base font-medium mb-4">
+          <p className="text-white/90 text-xs xs:text-sm sm:text-base font-medium mb-3 xs:mb-4">
             ⏰ INSCRIPCIONES ABIERTAS POR TIEMPO LIMITADO
           </p>
-          <h3 className="text-white font-editorial text-2xl sm:text-3xl lg:text-4xl mb-8">
+          <h3 className="text-white font-editorial text-xl xs:text-2xl sm:text-3xl lg:text-4xl mb-6 xs:mb-8">
             El curso comienza en:
           </h3>
-          
-          <div className="grid grid-cols-4 gap-3 sm:gap-6 max-w-3xl mx-auto">
+
+          <div className="grid grid-cols-4 gap-2 xs:gap-3 sm:gap-6 max-w-3xl mx-auto">
             {/* Days */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/20">
-              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl xs:rounded-2xl p-2 xs:p-4 sm:p-6 border border-white/20">
+              <div className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 xs:mb-2">
                 {String(timeLeft.days).padStart(2, "0")}
               </div>
-              <div className="text-white/80 text-xs sm:text-sm font-medium uppercase tracking-wide">
+              <div className="text-white/80 text-[10px] xs:text-xs sm:text-sm font-medium uppercase tracking-wide">
                 Días
               </div>
             </div>
 
             {/* Hours */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/20">
-              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl xs:rounded-2xl p-2 xs:p-4 sm:p-6 border border-white/20">
+              <div className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 xs:mb-2">
                 {String(timeLeft.hours).padStart(2, "0")}
               </div>
-              <div className="text-white/80 text-xs sm:text-sm font-medium uppercase tracking-wide">
+              <div className="text-white/80 text-[10px] xs:text-xs sm:text-sm font-medium uppercase tracking-wide">
                 Horas
               </div>
             </div>
 
             {/* Minutes */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/20">
-              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl xs:rounded-2xl p-2 xs:p-4 sm:p-6 border border-white/20">
+              <div className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 xs:mb-2">
                 {String(timeLeft.minutes).padStart(2, "0")}
               </div>
-              <div className="text-white/80 text-xs sm:text-sm font-medium uppercase tracking-wide">
+              <div className="text-white/80 text-[10px] xs:text-xs sm:text-sm font-medium uppercase tracking-wide">
                 Min
               </div>
             </div>
 
             {/* Seconds */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/20">
-              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl xs:rounded-2xl p-2 xs:p-4 sm:p-6 border border-white/20">
+              <div className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1 xs:mb-2">
                 {String(timeLeft.seconds).padStart(2, "0")}
               </div>
-              <div className="text-white/80 text-xs sm:text-sm font-medium uppercase tracking-wide">
+              <div className="text-white/80 text-[10px] xs:text-xs sm:text-sm font-medium uppercase tracking-wide">
                 Seg
               </div>
             </div>
           </div>
 
           {/* Carrusel de horarios por país */}
-          <div className="mt-8 mb-6">
-            <p className="text-white/90 text-sm font-medium mb-3">
+          <div className="mt-6 xs:mt-8 mb-4 xs:mb-6">
+            <p className="text-white/90 text-xs xs:text-sm font-medium mb-2 xs:mb-3">
               🕘 Horarios por país
             </p>
             <div className="relative overflow-hidden">
               <div className="flex animate-scroll-infinite whitespace-nowrap">
                 {/* Primera copia de los horarios */}
-                <div className="flex gap-6 px-3">
-                  <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇨🇴 Colombia: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                <div className="flex gap-4 xs:gap-6 px-2 xs:px-3">
+                  <span className="text-white/80 text-xs xs:text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇨🇴 Colombia: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇲🇽 México: 18:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
                 </div>
                 {/* Segunda copia para loop infinito */}
-                <div className="flex gap-6 px-3">
-                  <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇨🇴 Colombia: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
-                  <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                <div className="flex gap-4 xs:gap-6 px-2 xs:px-3">
+                  <span className="text-white/80 text-xs xs:text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇨🇴 Colombia: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇲🇽 México: 18:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="mt-6">
+          <div className="mt-4 xs:mt-6">
             <a
               href="/inscripcion"
-              className="inline-block bg-white text-accent px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-105"
+              className="inline-block bg-white text-accent px-6 xs:px-8 py-3 xs:py-4 rounded-full font-semibold text-base xs:text-lg hover:bg-gray-100 transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-105"
             >
               Inscribirme ahora →
             </a>
           </div>
 
-          <p className="text-white/70 text-sm mt-4">
+          <p className="text-white/70 text-xs xs:text-sm mt-3 xs:mt-4">
             Cupos limitados
           </p>
         </div>
