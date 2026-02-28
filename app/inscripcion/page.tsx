@@ -47,16 +47,15 @@ export default function InscripcionPage() {
                 Un mensaje para ti
               </h2>
               <div className="flex justify-center">
-                <div className="w-full max-w-md">
-                  <div className="relative rounded-xl overflow-hidden bg-bg shadow-xl" style={{ paddingBottom: '177.78%' }}>
-                    <iframe
-                      src="https://www.youtube.com/embed/xm4as3isJp0"
-                      title="Video de agradecimiento"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="absolute top-0 left-0 w-full h-full"
-                    ></iframe>
-                  </div>
+                {/* Contenedor vertical optimizado para YouTube Shorts */}
+                <div className="max-w-[315px] mx-auto aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-2xl border-4 border-accent/20">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/xm4as3isJp0"
+                    title="Gracias por inscribirte"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             </div>
