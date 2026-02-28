@@ -11,20 +11,17 @@ export default function VideoPreview() {
           </p>
         </div>
 
-        {/* Video Container */}
-        <div className="relative">
-          {/* Video Wrapper with 16:9 aspect ratio */}
-          <div className="relative bg-termBg rounded-2xl overflow-hidden shadow-2xl border border-border">
-            <div className="aspect-video">
-              <iframe
-                src="{{VIDEO_PREVIEW_URL}}"
-                title="Vista previa del curso Claude Code"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0 w-full h-full"
-                loading="lazy"
-              />
-            </div>
+        {/* Video Container - Vertical Format */}
+        <div className="relative flex justify-center">
+          {/* Contenedor vertical optimizado para YouTube Shorts */}
+          <div className="max-w-[360px] w-full mx-auto aspect-[9/16] bg-black rounded-2xl overflow-hidden shadow-2xl border-4 border-accent/20">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/pcbFZojPb5E"
+              title="Mira lo que vas a aprender - CamiDevAI"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
 
           {/* Decorative Elements */}
