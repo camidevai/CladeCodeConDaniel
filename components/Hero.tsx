@@ -62,7 +62,7 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
               <div className="p-6 font-mono text-sm text-termText space-y-3">
                 <div className="flex items-start gap-2">
                   <span className="text-accent select-none">$</span>
-                  <span>claude-code init proyecto-real</span>
+                  <span>claude /init proyecto-real</span>
                 </div>
                 <div className="text-termText/70 pl-4">
                   ✓ Configurando entorno de desarrollo...<br/>
