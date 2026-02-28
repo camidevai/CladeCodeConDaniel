@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Claude Code en serio: de tu terminal a producción | Curso Gratuito",
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="es">
       <body className="antialiased">
         {children}
+        <FloatingWhatsAppButton />
       </body>
     </html>
   );
