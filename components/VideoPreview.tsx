@@ -46,7 +46,9 @@ export default function VideoPreview() {
               '• Daniel Ávila (17k+ GitHub stars)\n' +
               '• CamiDevAI\n\n' +
               '🎁 100% GRATUITO\n\n' +
-              '👉 Inscríbete aquí:\n' +
+              '� INSCRÍBETE AQUÍ (WhatsApp):\n' +
+              'https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6\n\n' +
+              '🌐 MÁS INFORMACIÓN:\n' +
               'https://curso-claude-code.netlify.app/'
             )}`}
             target="_blank"
