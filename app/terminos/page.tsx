@@ -37,7 +37,7 @@ export default function TerminosPage() {
           <section className="mb-8">
             <h2 className="font-editorial text-2xl text-text mb-4">1. Aceptación de los términos</h2>
             <p className="text-muted mb-4">
-              Al inscribirte en el curso "Claude Code en Serio" y unirte al grupo de WhatsApp, aceptas estos términos y condiciones. 
+              Al inscribirte en el curso &ldquo;Claude Code en Serio&rdquo; y unirte al grupo de WhatsApp, aceptas estos términos y condiciones.
               Si no estás de acuerdo con alguno de estos términos, por favor no te inscribas en el curso.
             </p>
           </section>
@@ -116,7 +116,7 @@ export default function TerminosPage() {
           <section className="mb-8">
             <h2 className="font-editorial text-2xl text-text mb-4">7. Limitación de responsabilidad</h2>
             <p className="text-muted mb-4">
-              Este curso se proporciona "tal cual" con fines educativos. No garantizamos resultados específicos ni somos responsables de:
+              Este curso se proporciona &ldquo;tal cual&rdquo; con fines educativos. No garantizamos resultados específicos ni somos responsables de:
             </p>
             <ul className="list-disc list-inside text-muted space-y-2 ml-4">
               <li>Problemas técnicos con tu configuración de Claude Code</li>

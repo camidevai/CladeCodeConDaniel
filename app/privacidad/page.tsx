@@ -102,8 +102,8 @@ export default function PrivacidadPage() {
           <section className="mb-8">
             <h2 className="font-editorial text-2xl text-text mb-4">7. Cambios a esta política</h2>
             <p className="text-muted mb-4">
-              Podemos actualizar esta política de privacidad ocasionalmente. Te notificaremos sobre cambios significativos 
-              publicando la nueva política en esta página y actualizando la fecha de "última actualización".
+              Podemos actualizar esta política de privacidad ocasionalmente. Te notificaremos sobre cambios significativos
+              publicando la nueva política en esta página y actualizando la fecha de &ldquo;última actualización&rdquo;.
             </p>
           </section>
 
