@@ -111,36 +111,56 @@ export default function Countdown() {
 
           {/* Carrusel de horarios por país */}
           <div className="mt-6 xs:mt-8 mb-4 xs:mb-6">
-            <p className="text-white/90 text-xs xs:text-sm font-medium mb-2 xs:mb-3">
+            <p className="text-white/90 text-xs xs:text-sm font-medium mb-2 xs:mb-3 text-center">
               🕘 Horarios por país
             </p>
-            <div className="relative overflow-hidden">
-              <div className="flex animate-scroll-infinite whitespace-nowrap">
-                {/* Primera copia de los horarios */}
-                <div className="flex gap-4 xs:gap-6 px-2 xs:px-3">
-                  <span className="text-white/80 text-xs xs:text-sm">🇨🇱 Chile: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇦🇷 Argentina: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇧🇷 Brasil: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇨🇴 Colombia: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇵🇪 Perú: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇲🇽 México: 18:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇺🇸 Miami: 20:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+            {/* Scroll horizontal en móvil, animación en desktop */}
+            <div className="relative">
+              {/* Versión móvil: scroll horizontal */}
+              <div className="md:hidden overflow-x-auto scrollbar-hide">
+                <div className="flex gap-4 px-4 pb-2">
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇨🇱 Chile: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇦🇷 Argentina: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇺🇾 Uruguay: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇧🇷 Brasil: 21:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇨🇴 Colombia: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇵🇪 Perú: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇨 Ecuador: 19:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇲🇽 México: 18:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇺🇸 Miami: 20:00 hrs</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 01:00 hrs 🌙</span>
                 </div>
-                {/* Segunda copia para loop infinito */}
-                <div className="flex gap-4 xs:gap-6 px-2 xs:px-3">
-                  <span className="text-white/80 text-xs xs:text-sm">🇨🇱 Chile: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇦🇷 Argentina: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇧🇷 Brasil: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇨🇴 Colombia: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇵🇪 Perú: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇲🇽 México: 18:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇺🇸 Miami: 20:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+              </div>
+
+              {/* Versión desktop: animación infinita */}
+              <div className="hidden md:block overflow-hidden">
+                <div className="flex animate-scroll-infinite whitespace-nowrap hover:pause">
+                  {/* Primera copia de los horarios */}
+                  <div className="flex gap-6 px-3">
+                    <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇨� Colombia: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                    <span className="text-white/80 text-sm">�� España: 01:00 hrs 🌙</span>
+                  </div>
+                  {/* Segunda copia para loop infinito */}
+                  <div className="flex gap-6 px-3">
+                    <span className="text-white/80 text-sm">🇨🇱 Chile: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇦🇷 Argentina: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇺🇾 Uruguay: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇧🇷 Brasil: 21:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇨🇴 Colombia: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇵🇪 Perú: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                  </div>
                 </div>
               </div>
             </div>
