@@ -10,6 +10,16 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div className="space-y-4">
+              {/* Fecha del curso */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/20 rounded-full">
+                <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <span className="text-sm sm:text-base font-semibold text-accent">
+                  📅 Domingo 23 de Marzo, 2026 • 21:00 hrs (Chile)
+                </span>
+              </div>
+
               <h1 className="font-editorial text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] text-text">
                 Primeros pasos con Claude Code: setup y buenas prácticas
               </h1>

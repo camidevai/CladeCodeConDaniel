@@ -14,8 +14,8 @@ export default function Countdown() {
   useEffect(() => {
     setMounted(true);
 
-    // Fecha límite: 9 de marzo de 2026 a las 23:59:59 hora de Chile (UTC-3)
-    const targetDate = new Date("2026-03-09T23:59:59-03:00");
+    // Fecha límite: 23 de marzo de 2026 a las 21:00:00 hora de Chile (UTC-3)
+    const targetDate = new Date("2026-03-23T21:00:00-03:00");
 
     const updateCountdown = () => {
       const now = new Date();
@@ -128,7 +128,7 @@ export default function Countdown() {
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇨 Ecuador: 19:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇲🇽 México: 18:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇺🇸 Miami: 20:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 01:00 hrs 🌙</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 01:00 hrs (24-Mar) 🌙</span>
                 </div>
               </div>
 
@@ -159,7 +159,7 @@ export default function Countdown() {
                     <span className="text-white/80 text-sm">🇪🇨 Ecuador: 19:00 hrs</span>
                     <span className="text-white/80 text-sm">🇲🇽 México: 18:00 hrs</span>
                     <span className="text-white/80 text-sm">🇺🇸 Miami: 20:00 hrs</span>
-                    <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs 🌙</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 01:00 hrs (24-Mar) 🌙</span>
                   </div>
                 </div>
               </div>
