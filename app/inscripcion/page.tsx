@@ -46,14 +46,18 @@ export default function InscripcionPage() {
               <h2 className="font-editorial text-2xl sm:text-3xl text-text mb-4 text-center">
                 Un mensaje para ti
               </h2>
-              <div className="aspect-video rounded-xl overflow-hidden bg-bg">
-                <iframe
-                  src="{{THANK_YOU_VIDEO_URL}}"
-                  title="Video de agradecimiento"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
+              <div className="flex justify-center">
+                <div className="w-full max-w-md">
+                  <div className="relative rounded-xl overflow-hidden bg-bg shadow-xl" style={{ paddingBottom: '177.78%' }}>
+                    <iframe
+                      src="https://www.youtube.com/embed/xm4as3isJp0"
+                      title="Video de agradecimiento"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="absolute top-0 left-0 w-full h-full"
+                    ></iframe>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
