@@ -166,10 +166,10 @@ export default function Footer({ onOpenEmailModal }: FooterProps) {
             © {new Date().getFullYear()} Claude Code en serio. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-accent transition-colors duration-200">
+            <a href="/privacidad" className="hover:text-accent transition-colors duration-200">
               Privacidad
             </a>
-            <a href="#" className="hover:text-accent transition-colors duration-200">
+            <a href="/terminos" className="hover:text-accent transition-colors duration-200">
               Términos
             </a>
           </div>
