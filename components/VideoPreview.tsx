@@ -34,7 +34,7 @@ export default function VideoPreview() {
           <a
             href={`https://wa.me/?text=${encodeURIComponent(
               '🚀 ¡Curso GRATUITO de Claude Code!\n\n' +
-              '📅 FECHA: Domingo 23 de Marzo, 2026\n' +
+              '📅 FECHA: Lunes 23 de Marzo, 2026\n' +
               '⏰ HORA: 21:00 hrs (Chile/Argentina)\n' +
               '📍 DÓNDE: YouTube en vivo\n\n' +
               '🤖 Aprende a programar 10x más rápido con IA\n\n' +
