@@ -24,9 +24,9 @@ export default function ResourcesModal({ isOpen, onClose }: ResourcesModalProps)
 
   const resources = [
     {
-      title: "CodeGPT",
-      description: "Herramienta de IA para desarrollo con múltiples modelos y agentes personalizados",
-      url: "https://www.codegpt.co/",
+      title: "AI TMPL",
+      description: "Templates y recursos para desarrollo con IA y mejores prácticas de programación",
+      url: "https://www.aitmpl.com/",
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm-1-9h2v2h-2v-2zm0 4h2v2h-2v-2z"/>
