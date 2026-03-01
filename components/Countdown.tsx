@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import TimezonesModal from "./TimezonesModal";
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState({
@@ -10,6 +11,7 @@ export default function Countdown() {
     seconds: 0,
   });
   const [mounted, setMounted] = useState(false);
+  const [isTimezonesModalOpen, setIsTimezonesModalOpen] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -166,6 +168,19 @@ export default function Countdown() {
             </div>
           </div>
 
+          {/* Botón para ver todos los horarios */}
+          <div className="mt-4 xs:mt-5 text-center">
+            <button
+              onClick={() => setIsTimezonesModalOpen(true)}
+              className="inline-flex items-center gap-2 text-white/90 hover:text-white text-xs xs:text-sm font-medium px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-200 border border-white/20 hover:border-white/30"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Ver todos los horarios
+            </button>
+          </div>
+
           <div className="mt-4 xs:mt-6">
             <a
               href="/inscripcion"
@@ -180,6 +195,12 @@ export default function Countdown() {
           </p>
         </div>
       </div>
+
+      {/* Modal de horarios */}
+      <TimezonesModal
+        isOpen={isTimezonesModalOpen}
+        onClose={() => setIsTimezonesModalOpen(false)}
+      />
     </div>
   );
 }
