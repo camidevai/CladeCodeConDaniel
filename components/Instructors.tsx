@@ -24,13 +24,11 @@ export default function Instructors() {
       image: "/img/camidevai.png",
       bio: "Socia en la Cámara Chilena de Inteligencia Artificial. Especializada en casos de uso prácticos de IA y automatización. Ayuda a profesionales y empresas a adoptar IA de forma efectiva en sus workflows diarios.",
       highlights: [
-        "Ingeniera en informatica con mension en ciberseguridad",
-        "certificadora en IA y ciberseguridad",
+        "Ingeniera en Informática con mención en Ciberseguridad",
+        "Certificada en IA y Ciberseguridad",
         "Socia en Cámara Chilena de IA",
-        "Creadora de contenido de IA en rrss mostrando casos de uso prácticos",
+        "Creadora de contenido de IA en redes sociales mostrando casos de uso prácticos",
         "CMO de Informatik-ai"
-        
-        
       ],
       social: {
         linkedin: "https://www.linkedin.com/in/camilabanares/",
