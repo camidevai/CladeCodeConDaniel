@@ -21,7 +21,7 @@ export default function FloatingWhatsAppButton() {
     '• CamiDevAI\n\n' +
     '🎁 100% GRATUITO\n\n' +
     '📲 INSCRÍBETE AQUÍ (WhatsApp):\n' +
-    'https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6\n\n' +
+    'https://chat.whatsapp.com/JMFogCas2wI0xy66BZMfrs\n\n' +
     '🌐 MÁS INFORMACIÓN:\n' +
     'https://curso-claude-code.netlify.app/'
   );
@@ -30,7 +30,7 @@ export default function FloatingWhatsAppButton() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       {/* Botón de Inscribirse */}
       <a
-        href="https://chat.whatsapp.com/K1AvEQBjng7067kuLHWjd6"
+        href="https://chat.whatsapp.com/JMFogCas2wI0xy66BZMfrs"
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHoveredJoin(true)}
