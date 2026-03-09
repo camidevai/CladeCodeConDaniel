@@ -22,18 +22,17 @@ export default function CommunityProgress() {
             </span>
             <span className="font-bold text-red-600">LLENA</span>
           </div>
-          
+
           {/* Progress Bar */}
           <div className="relative w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-            <div 
+            <div
               className="absolute top-0 left-0 h-full bg-gradient-to-r from-red-500 to-red-600 rounded-full transition-all duration-1000"
               style={{ width: '100%' }}
             ></div>
           </div>
-          
-          <div className="flex items-center justify-between text-xs sm:text-sm text-muted">
-            <span>2,000 / 2,000 personas</span>
-            <span className="font-semibold text-red-600">100%</span>
+
+          <div className="flex items-center justify-end text-xs sm:text-sm">
+            <span className="font-semibold text-red-600">100% COMPLETA</span>
           </div>
         </div>
 
@@ -46,18 +45,17 @@ export default function CommunityProgress() {
             </span>
             <span className="font-bold text-green-600">ABIERTA</span>
           </div>
-          
-          {/* Progress Bar */}
+
+          {/* Progress Bar - ACTUALIZA EL PORCENTAJE AQUÍ */}
           <div className="relative w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-            <div 
+            <div
               className="absolute top-0 left-0 h-full bg-gradient-to-r from-accent to-accentSoft rounded-full transition-all duration-1000 animate-pulse"
-              style={{ width: '45%' }}
+              style={{ width: '0%' }}
             ></div>
           </div>
-          
-          <div className="flex items-center justify-between text-xs sm:text-sm text-muted">
-            <span>900 / 2,000 personas</span>
-            <span className="font-semibold text-accent">45%</span>
+
+          <div className="flex items-center justify-end text-xs sm:text-sm">
+            <span className="font-semibold text-accent">Llenándose...</span>
           </div>
         </div>
       </div>
@@ -65,7 +63,7 @@ export default function CommunityProgress() {
       {/* Mensaje de urgencia */}
       <div className="mt-6 p-4 bg-accent/5 border border-accent/20 rounded-xl">
         <p className="text-center text-sm sm:text-base text-text">
-          <span className="font-bold text-accent">⚠️ ¡Solo quedan 1,100 cupos disponibles!</span>
+          <span className="font-bold text-accent">⚠️ ¡Cupos limitados!</span>
           <br />
           <span className="text-muted text-sm">No te quedes fuera de la segunda comunidad</span>
         </p>
