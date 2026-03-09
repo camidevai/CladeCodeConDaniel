@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import TimezonesModal from "./TimezonesModal";
+import CommunityProgress from "./CommunityProgress";
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState({
@@ -181,17 +182,13 @@ export default function Countdown() {
             </button>
           </div>
 
-          <div className="mt-4 xs:mt-6">
-            <a
-              href="/inscripcion"
-              className="inline-block bg-white text-accent px-6 xs:px-8 py-3 xs:py-4 rounded-full font-semibold text-base xs:text-lg hover:bg-gray-100 transition-all duration-200 shadow-xl hover:shadow-2xl hover:scale-105"
-            >
-              Inscribirme ahora →
-            </a>
+          {/* Community Progress Component */}
+          <div className="mt-8 xs:mt-10">
+            <CommunityProgress />
           </div>
 
           <p className="text-white/70 text-xs xs:text-sm mt-3 xs:mt-4">
-            Cupos limitados
+            ¡No te quedes fuera!
           </p>
         </div>
       </div>

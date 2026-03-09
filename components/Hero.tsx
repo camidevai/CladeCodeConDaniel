@@ -10,6 +10,13 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div className="space-y-4">
+              {/* Badge de éxito - Primera comunidad llena */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full animate-pulse">
+                <span className="text-sm sm:text-base font-bold text-green-700">
+                  🔥 +2,000 inscritos • Primera comunidad LLENA
+                </span>
+              </div>
+
               {/* Fecha del curso */}
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/20 rounded-full">
                 <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">

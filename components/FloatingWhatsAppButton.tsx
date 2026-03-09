@@ -21,7 +21,7 @@ export default function FloatingWhatsAppButton() {
     '• CamiDevAI\n\n' +
     '🎁 100% GRATUITO\n\n' +
     '📲 INSCRÍBETE AQUÍ (WhatsApp):\n' +
-    'https://chat.whatsapp.com/JMFogCas2wI0xy66BZMfrs\n\n' +
+    'https://chat.whatsapp.com/IN3HBbkJWq0BdMDIrnfuFJ\n\n' +
     '🌐 MÁS INFORMACIÓN:\n' +
     'https://curso-claude-code.netlify.app/'
   );
@@ -30,14 +30,19 @@ export default function FloatingWhatsAppButton() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       {/* Botón de Inscribirse */}
       <a
-        href="https://chat.whatsapp.com/JMFogCas2wI0xy66BZMfrs"
+        href="https://chat.whatsapp.com/IN3HBbkJWq0BdMDIrnfuFJ"
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHoveredJoin(true)}
         onMouseLeave={() => setIsHoveredJoin(false)}
         className="group relative flex items-center gap-3 bg-accent text-white rounded-full shadow-2xl hover:shadow-accent/50 transition-all duration-300 hover:scale-110"
-        aria-label="Inscribirse al curso por WhatsApp"
+        aria-label="Inscribirse a la Comunidad 2 por WhatsApp"
       >
+        {/* Badge "Comunidad 2" */}
+        <div className="absolute -top-2 -right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg animate-pulse">
+          Com. 2
+        </div>
+
         {/* Botón principal */}
         <div className="flex items-center gap-3 px-5 py-4">
           {/* Icono de usuario + */}
@@ -62,7 +67,7 @@ export default function FloatingWhatsAppButton() {
         {/* Tooltip en hover (solo desktop) */}
         {isHoveredJoin && (
           <div className="hidden lg:block absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-sm px-4 py-2 rounded-lg whitespace-nowrap shadow-xl">
-            ¡Únete al grupo de WhatsApp! 📲
+            ¡Comunidad 1 llena! Únete a la Comunidad 2 📲
             <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-full border-8 border-transparent border-l-gray-900"></div>
           </div>
         )}
