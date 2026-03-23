@@ -45,7 +45,7 @@ export default function Instructors() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16 sm:mb-20">
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            Tus instructores
+            Tus instructores.
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
             Aprende de quienes están en las trincheras usando IA en producción todos los días
