@@ -47,7 +47,7 @@ export default function VideoPreview() {
               '• CamiDevAI\n\n' +
               '🎁 100% GRATUITO\n\n' +
               '� INSCRÍBETE AQUÍ (WhatsApp):\n' +
-              'https://chat.whatsapp.com/IN3HBbkJWq0BdMDIrnfuFJ\n\n' +
+              'https://chat.whatsapp.com/IwBrAkP5xIZCCM1a5IOGse\n\n' +
               '🌐 MÁS INFORMACIÓN:\n' +
               'https://curso-claude-code.netlify.app/'
             )}`}
