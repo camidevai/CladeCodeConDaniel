@@ -15,7 +15,7 @@ export default function VideoPreview() {
           </div>
 
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            ¡El curso está en vivo!
+            ¡El curso está EN VIVO!
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
             Únete ahora y aprende a programar 10x más rápido con Claude Code
