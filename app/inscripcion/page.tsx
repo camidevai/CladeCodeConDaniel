@@ -31,7 +31,7 @@ export default function InscripcionPage() {
             {/* Badge de éxito - Primeras 2 comunidades llenas */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full animate-pulse mb-6">
               <span className="text-sm sm:text-base font-bold text-green-700">
-                🔥 +4,000 inscritos • 2 comunidades LLENAS
+                🔥 +6,000 inscritos • 2 comunidades LLENAS
               </span>
             </div>
 

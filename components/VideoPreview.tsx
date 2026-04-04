@@ -90,7 +90,7 @@ export default function VideoPreview() {
         <div className="mt-12 max-w-2xl mx-auto">
           <div className="bg-red-500/5 border border-red-500/20 rounded-2xl p-6 text-center">
             <p className="text-lg font-semibold text-text mb-2">
-              🔥 ¡Más de 4,000 personas ya están aprendiendo!
+              🔥 ¡Más de 6,000 personas ya están aprendiendo!
             </p>
             <p className="text-muted">
               Únete a la Comunidad 3 para recibir recursos exclusivos, grabaciones y estar al tanto de futuras clases
