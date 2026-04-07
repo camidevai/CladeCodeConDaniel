@@ -15,7 +15,7 @@ export default function VideoPreview() {
           </div>
 
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            ¡El curso está EN VIVO!
+            ¡Clase 2 EN VIVO ahora!
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
             Únete ahora y aprende a programar 10x más rápido con Claude Code
@@ -28,8 +28,8 @@ export default function VideoPreview() {
           <div className="w-full max-w-4xl mx-auto aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border-4 border-red-500/30">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/16v9VS_7W3I?autoplay=1&mute=0"
-              title="Curso Claude Code - EN VIVO"
+              src="https://www.youtube.com/embed/uabya3ExUSY?autoplay=1&mute=0"
+              title="Curso Claude Code - Clase 2 EN VIVO"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
@@ -59,7 +59,7 @@ export default function VideoPreview() {
               href={`https://wa.me/?text=${encodeURIComponent(
                 '🔴 ¡Curso de Claude Code EN VIVO AHORA!\n\n' +
                 '📺 Míralo aquí:\n' +
-                'https://www.youtube.com/watch?v=16v9VS_7W3I\n\n' +
+                'https://www.youtube.com/watch?v=uabya3ExUSY\n\n' +
                 '🤖 Aprende a programar 10x más rápido con IA\n\n' +
                 '👨‍💻 Instructores:\n' +
                 '• Daniel Ávila (17k+ GitHub stars)\n' +
