@@ -23,16 +23,16 @@ export default function TimezonesModal({ isOpen, onClose }: TimezonesModalProps)
   if (!isOpen) return null;
 
   const timezones = [
-    { country: "Chile", flag: "🇨🇱", time: "21:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Argentina", flag: "🇦🇷", time: "21:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Uruguay", flag: "🇺🇾", time: "21:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Brasil", flag: "🇧🇷", time: "21:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Colombia", flag: "🇨🇴", time: "19:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Perú", flag: "🇵🇪", time: "19:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Ecuador", flag: "🇪🇨", time: "19:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "México (CDMX)", flag: "🇲🇽", time: "18:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Miami (USA)", flag: "🇺🇸", time: "20:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "España", flag: "🇪🇸", time: "02:00 hrs 🌙", date: "Martes 7 de Abril" },
+    { country: "Chile", flag: "🇨🇱", time: "22:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Argentina", flag: "🇦🇷", time: "22:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Uruguay", flag: "🇺🇾", time: "22:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Brasil", flag: "🇧🇷", time: "22:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Colombia", flag: "🇨🇴", time: "20:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Perú", flag: "🇵🇪", time: "20:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Ecuador", flag: "🇪🇨", time: "20:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "México (CDMX)", flag: "🇲🇽", time: "19:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "Miami (USA)", flag: "🇺🇸", time: "21:00 hrs", date: "Lunes 6 de Abril" },
+    { country: "España", flag: "🇪🇸", time: "03:00 hrs 🌙", date: "Martes 7 de Abril" },
   ];
 
   return (
