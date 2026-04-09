@@ -23,16 +23,16 @@ export default function TimezonesModal({ isOpen, onClose }: TimezonesModalProps)
   if (!isOpen) return null;
 
   const timezones = [
-    { country: "Chile", flag: "🇨🇱", time: "22:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Argentina", flag: "🇦🇷", time: "22:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Uruguay", flag: "🇺🇾", time: "22:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Brasil", flag: "🇧🇷", time: "22:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Colombia", flag: "🇨🇴", time: "20:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Perú", flag: "🇵🇪", time: "20:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Ecuador", flag: "🇪🇨", time: "20:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "México (CDMX)", flag: "🇲🇽", time: "19:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "Miami (USA)", flag: "🇺🇸", time: "21:00 hrs", date: "Lunes 6 de Abril" },
-    { country: "España", flag: "🇪🇸", time: "03:00 hrs 🌙", date: "Martes 7 de Abril" },
+    { country: "Chile", flag: "🇨🇱", time: "22:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Argentina", flag: "🇦🇷", time: "22:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Uruguay", flag: "🇺🇾", time: "22:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Brasil", flag: "🇧🇷", time: "22:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Colombia", flag: "🇨🇴", time: "20:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Perú", flag: "🇵🇪", time: "20:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Ecuador", flag: "🇪🇨", time: "20:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "México (CDMX)", flag: "🇲🇽", time: "19:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "Miami (USA)", flag: "🇺🇸", time: "21:00 hrs", date: "Lunes 27 de Abril" },
+    { country: "España", flag: "🇪🇸", time: "03:00 hrs 🌙", date: "Martes 28 de Abril" },
   ];
 
   return (
@@ -97,7 +97,7 @@ export default function TimezonesModal({ isOpen, onClose }: TimezonesModalProps)
 
         <div className="mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-border">
           <p className="text-xs text-muted text-center">
-            La clase será transmitida en vivo por YouTube el Lunes 6 de Abril, 2026
+            La clase será transmitida en vivo por YouTube el Lunes 27 de Abril, 2026
           </p>
         </div>
       </div>
