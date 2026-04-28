@@ -28,7 +28,7 @@ export default function VideoPreview() {
           <div className="w-full max-w-4xl mx-auto aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border-4 border-red-500/30">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/uabya3ExUSY?autoplay=1&mute=0"
+              src="https://www.youtube.com/embed/FtfIN7unxvM?autoplay=1&mute=0"
               title="Curso Claude Code - Clase 2 EN VIVO"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -59,7 +59,7 @@ export default function VideoPreview() {
               href={`https://wa.me/?text=${encodeURIComponent(
                 '🔴 ¡Curso de Claude Code EN VIVO AHORA!\n\n' +
                 '📺 Míralo aquí:\n' +
-                'https://www.youtube.com/watch?v=uabya3ExUSY\n\n' +
+                'https://www.youtube.com/watch?v=FtfIN7unxvM\n\n' +
                 '🤖 Aprende a programar 10x más rápido con IA\n\n' +
                 '👨‍💻 Instructores:\n' +
                 '• Daniel Ávila (17k+ GitHub stars)\n' +
@@ -84,6 +84,32 @@ export default function VideoPreview() {
           <p className="text-sm text-muted">
             ⚡ No te pierdas recursos exclusivos y futuras clases
           </p>
+
+          {/* Clases grabadas */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-2">
+            <a
+              href="https://www.youtube.com/watch?v=16v9VS_7W3I"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-surface border-2 border-red-500/40 text-text rounded-full font-semibold text-base hover:bg-red-500/10 hover:border-red-500 transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105"
+            >
+              <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 001.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/>
+              </svg>
+              Ver Clase 1
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=16v9VS_7W3I&t=409s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-surface border-2 border-red-500/40 text-text rounded-full font-semibold text-base hover:bg-red-500/10 hover:border-red-500 transition-all duration-200 shadow-md hover:shadow-lg hover:scale-105"
+            >
+              <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 001.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/>
+              </svg>
+              Ver Clase 2
+            </a>
+          </div>
         </div>
 
         {/* Urgency Message */}
