@@ -15,7 +15,7 @@ export default function VideoPreview() {
           </div>
 
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            ¡Clase 2 EN VIVO ahora!
+            ¡Clase 3 EN VIVO ahora!
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
             Únete ahora y aprende a programar 10x más rápido con Claude Code
@@ -29,7 +29,7 @@ export default function VideoPreview() {
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/FtfIN7unxvM?autoplay=1&mute=0"
-              title="Curso Claude Code - Clase 2 EN VIVO"
+              title="Curso Claude Code - Clase 3 EN VIVO"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
