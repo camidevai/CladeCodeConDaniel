@@ -10,10 +10,10 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
           {/* Left Column - Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              {/* Badge de éxito - Primeras 2 comunidades llenas */}
+              {/* Badge de éxito - Primeras 3 comunidades llenas */}
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full animate-pulse">
                 <span className="text-sm sm:text-base font-bold text-green-700">
-                  🔥 +6,000 inscritos • 2 comunidades LLENAS
+                  🔥 +6,000 inscritos • 3 comunidades LLENAS
                 </span>
               </div>
 

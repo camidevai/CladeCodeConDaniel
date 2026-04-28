@@ -8,7 +8,7 @@ export default function CommunityProgress() {
           📊 Estado de las Comunidades
         </h3>
         <p className="text-muted text-sm sm:text-base">
-          ¡Las primeras 2 comunidades se llenaron en tiempo récord!
+          ¡Las primeras 3 comunidades se llenaron en tiempo récord!
         </p>
       </div>
 
