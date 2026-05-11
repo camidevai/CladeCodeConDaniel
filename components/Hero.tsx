@@ -23,7 +23,7 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 <span className="text-sm sm:text-base font-semibold text-accent">
-                  📅 Lunes 27 de Abril, 2026 • 22:00 hrs (Chile)
+                  📅 Lunes 18 de Mayo • 22:00 hrs (Chile)
                 </span>
               </div>
 
@@ -62,37 +62,15 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
             </div>
           </div>
 
-          {/* Right Column - Terminal */}
-          <div className="relative">
-            <div className="bg-termBg rounded-xl shadow-2xl overflow-hidden border border-border">
-              {/* Terminal Header */}
-              <div className="bg-[#1E1E1E] px-4 py-3 flex items-center gap-2 border-b border-[#2D2D2D]">
-                <div className="flex gap-2">
-                  <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
-                  <div className="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
-                  <div className="w-3 h-3 rounded-full bg-[#27C93F]"></div>
-                </div>
-                <span className="ml-2 text-xs text-termText/60 font-mono">claude-code-terminal</span>
-              </div>
-              
-              {/* Terminal Content */}
-              <div className="p-6 font-mono text-sm text-termText space-y-3">
-                <div className="flex items-start gap-2">
-                  <span className="text-accent select-none">$</span>
-                  <span>claude /init proyecto-real</span>
-                </div>
-                <div className="text-termText/70 pl-4">
-                  ✓ Configurando entorno de desarrollo...<br/>
-                  ✓ Integrando con GitHub...<br/>
-                  ✓ Preparando templates...
-                </div>
-                <div className="flex items-start gap-2 mt-4">
-                  <span className="text-accent select-none">$</span>
-                  <span className="animate-pulse">_</span>
-                </div>
-              </div>
+          {/* Right Column - Próxima Clase */}
+          <div className="relative flex items-center justify-center">
+            <div className="relative w-full max-w-sm mx-auto">
+              <img
+                src="/img/proxima-clase.png"
+                alt="Próxima Clase Skills - Domingo 18 de Mayo, 100% Gratis"
+                className="w-full h-auto rounded-2xl shadow-2xl"
+              />
             </div>
-            
             {/* Decorative Element */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-accent/5 rounded-full blur-3xl"></div>
           </div>

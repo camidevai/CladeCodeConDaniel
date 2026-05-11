@@ -17,8 +17,8 @@ export default function Countdown() {
   useEffect(() => {
     setMounted(true);
 
-    // Fecha límite: 27 de abril de 2026 a las 22:00:00 hora de Chile (UTC-4)
-    const targetDate = new Date("2026-04-27T22:00:00-04:00");
+    // Fecha límite: 18 de mayo de 2026 a las 22:00:00 hora de Chile (UTC-4)
+    const targetDate = new Date("2026-05-18T22:00:00-04:00");
 
     const updateCountdown = () => {
       const now = new Date();
@@ -63,17 +63,17 @@ export default function Countdown() {
     <div className="bg-gradient-to-r from-accent to-orange-600 py-6 xs:py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 xs:px-6 sm:px-8 lg:px-12">
         <div className="text-center">
-          {/* Aviso de retraso y segunda clase */}
+          {/* Aviso próxima clase */}
           <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs xs:text-sm font-semibold px-4 py-2 rounded-full mb-4 xs:mb-5 animate-pulse">
-            <span>🚨</span>
-            <span>¡3ra clase confirmada para el Lunes 27 de Abril!</span>
+            <span>🚀</span>
+            <span>¡Próxima clase SKILLS confirmada para el Lunes 18 de Mayo!</span>
           </div>
 
           <p className="text-white/90 text-xs xs:text-sm sm:text-base font-medium mb-3 xs:mb-4">
-            ⏰ INSCRIPCIONES ABIERTAS POR TIEMPO LIMITADO
+            ⏰ ¡COMPLETAMENTE GRATUITA!
           </p>
           <h3 className="text-white font-editorial text-xl xs:text-2xl sm:text-3xl lg:text-4xl mb-6 xs:mb-8">
-            La 3ra clase comienza en:
+            La próxima clase comienza en:
           </h3>
 
           <div className="grid grid-cols-4 gap-2 xs:gap-3 sm:gap-6 max-w-3xl mx-auto">
@@ -137,7 +137,7 @@ export default function Countdown() {
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇨 Ecuador: 20:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇲🇽 México: 19:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇺🇸 Miami: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 03:00 hrs (28-Abr) 🌙</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
                 </div>
               </div>
 
@@ -155,7 +155,7 @@ export default function Countdown() {
                     <span className="text-white/80 text-sm">🇪🇨 Ecuador: 20:00 hrs</span>
                     <span className="text-white/80 text-sm">🇲🇽 México: 19:00 hrs</span>
                     <span className="text-white/80 text-sm">🇺🇸 Miami: 21:00 hrs</span>
-                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (28-Abr) 🌙</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
                   </div>
                   {/* Segunda copia para loop infinito */}
                   <div className="flex gap-6 px-3">
@@ -168,7 +168,7 @@ export default function Countdown() {
                     <span className="text-white/80 text-sm">🇪🇨 Ecuador: 20:00 hrs</span>
                     <span className="text-white/80 text-sm">🇲🇽 México: 19:00 hrs</span>
                     <span className="text-white/80 text-sm">🇺🇸 Miami: 21:00 hrs</span>
-                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (28-Abr) 🌙</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
                   </div>
                 </div>
               </div>
