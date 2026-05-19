@@ -19,16 +19,15 @@ export default function Instructors() {
       }
     },
     {
-      name: "CamiDevAI",
-      role: "AI Influencer & Partner",
+      name: "Camila Bañares Carrasco",
+      role: "Ingeniera en Informática | Vicepresidenta CCHIA | Creadora de Contenido en IA",
       image: "/img/camidevai.png",
-      bio: "Socia en la Cámara Chilena de Inteligencia Artificial. Especializada en casos de uso prácticos de IA y automatización. Ayuda a profesionales y empresas a adoptar IA de forma efectiva en sus workflows diarios.",
+      bio: "Lidera iniciativas que acercan la IA a miles de personas de forma práctica y accesible. A través de Informatik-AI y CamiDevAI, combina educación, innovación y comunicación estratégica para impulsar la adopción responsable de tecnologías emergentes en Chile y Latinoamérica.",
       highlights: [
         "Ingeniera en Informática con mención en Ciberseguridad",
-        "Certificada en IA y Ciberseguridad",
-        "Socia en Cámara Chilena de IA",
-        "Creadora de contenido de IA en redes sociales mostrando casos de uso prácticos",
-        "CMO de Informatik-ai"
+        "Vicepresidenta de la Cámara Chilena de Inteligencia Artificial",
+        "Creadora de contenido de IA — CamiDevAI",
+        "Co-fundadora de Informatik-AI"
       ],
       social: {
         linkedin: "https://www.linkedin.com/in/camilabanares/",
