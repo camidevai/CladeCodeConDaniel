@@ -37,6 +37,21 @@ export default function Instructors() {
         facebook: "https://www.facebook.com/profile.php?id=61564523003680",
         threads: "https://www.threads.com/@camidevai"
       }
+    },
+    {
+      name: "Jorge Salgado",
+      role: "AI Architect | Director de Transferencia de Conocimiento",
+      image: "/img/jorgeSalgado.png",
+      bio: "Lidera la conexión entre tecnología, educación e implementación estratégica. Transforma conceptos complejos de IA en soluciones aplicables y escalables, impulsando la adopción responsable de tecnologías emergentes.",
+      highlights: [
+        "AI Architect con enfoque en implementación estratégica",
+        "Director de Transferencia de Conocimiento",
+        "Especialista en adopción responsable de IA",
+        "Conecta tecnología, educación y organizaciones"
+      ],
+      social: {
+        linkedin: "https://www.linkedin.com/in/jorgesalgado"
+      }
     }
   ];
 
@@ -52,7 +67,7 @@ export default function Instructors() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 max-w-7xl mx-auto">
           {instructors.map((instructor, index) => (
             <div
               key={index}
