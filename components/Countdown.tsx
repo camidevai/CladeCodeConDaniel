@@ -17,8 +17,8 @@ export default function Countdown() {
   useEffect(() => {
     setMounted(true);
 
-    // Fecha límite: 18 de mayo de 2026 a las 22:00:00 hora de Chile (UTC-4)
-    const targetDate = new Date("2026-05-18T22:00:00-04:00");
+    // Fecha límite: 20 de mayo de 2026 a las 22:00:00 hora de Chile (UTC-4)
+    const targetDate = new Date("2026-05-20T22:00:00-04:00");
 
     const updateCountdown = () => {
       const now = new Date();
@@ -66,7 +66,7 @@ export default function Countdown() {
           {/* Aviso próxima clase */}
           <div className="inline-flex items-center gap-2 bg-white/20 border border-white/30 text-white text-xs xs:text-sm font-semibold px-4 py-2 rounded-full mb-4 xs:mb-5 animate-pulse">
             <span>🚀</span>
-            <span>¡Próxima clase SKILLS confirmada para el Lunes 18 de Mayo!</span>
+            <span>¡Próxima clase SKILLS confirmada para el Miércoles 20 de Mayo!</span>
           </div>
 
           <p className="text-white/90 text-xs xs:text-sm sm:text-base font-medium mb-3 xs:mb-4">
@@ -137,7 +137,7 @@ export default function Countdown() {
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇨 Ecuador: 20:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇲🇽 México: 19:00 hrs</span>
                   <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇺🇸 Miami: 21:00 hrs</span>
-                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
+                  <span className="text-white/80 text-xs xs:text-sm whitespace-nowrap bg-white/10 px-3 py-1.5 rounded-full">🇪🇸 España: 03:00 hrs (21-May) 🌙</span>
                 </div>
               </div>
 
@@ -155,7 +155,7 @@ export default function Countdown() {
                     <span className="text-white/80 text-sm">🇪🇨 Ecuador: 20:00 hrs</span>
                     <span className="text-white/80 text-sm">🇲🇽 México: 19:00 hrs</span>
                     <span className="text-white/80 text-sm">🇺🇸 Miami: 21:00 hrs</span>
-                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (21-May) 🌙</span>
                   </div>
                   {/* Segunda copia para loop infinito */}
                   <div className="flex gap-6 px-3">
@@ -168,7 +168,7 @@ export default function Countdown() {
                     <span className="text-white/80 text-sm">🇪🇨 Ecuador: 20:00 hrs</span>
                     <span className="text-white/80 text-sm">🇲🇽 México: 19:00 hrs</span>
                     <span className="text-white/80 text-sm">🇺🇸 Miami: 21:00 hrs</span>
-                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (19-May) 🌙</span>
+                    <span className="text-white/80 text-sm">🇪🇸 España: 03:00 hrs (21-May) 🌙</span>
                   </div>
                 </div>
               </div>

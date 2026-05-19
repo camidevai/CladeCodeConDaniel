@@ -23,7 +23,7 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
                 <span className="text-sm sm:text-base font-semibold text-accent">
-                  📅 Lunes 18 de Mayo • 22:00 hrs (Chile)
+                  📅 Miércoles 20 de Mayo • 22:00 hrs (Chile)
                 </span>
               </div>
 
@@ -67,7 +67,7 @@ export default function Hero({ onOpenEmailModal }: HeroProps) {
             <div className="relative w-full max-w-sm mx-auto">
               <img
                 src="/img/proxima-clase.png"
-                alt="Próxima Clase Skills - Domingo 18 de Mayo, 100% Gratis"
+                alt="Próxima Clase Skills - Miércoles 20 de Mayo, 100% Gratis"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
             </div>

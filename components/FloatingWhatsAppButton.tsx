@@ -8,7 +8,7 @@ export default function FloatingWhatsAppButton() {
 
   const shareMessage = encodeURIComponent(
     '🚀 ¡Curso GRATUITO de Claude Code!\n\n' +
-    '📅 FECHA: Lunes 27 de Abril, 2026\n' +
+    '📅 FECHA: Miércoles 20 de Mayo, 2026\n' +
     '⏰ HORA: 21:00 hrs (Chile/Argentina)\n' +
     '📍 DÓNDE: YouTube en vivo\n\n' +
     '🤖 Aprende a programar 10x más rápido con IA\n\n' +
