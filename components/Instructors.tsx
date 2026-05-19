@@ -39,12 +39,11 @@ export default function Instructors() {
     },
     {
       name: "Jorge Salgado",
-      role: "AI Architect | Director de Transferencia de Conocimiento",
+      role: "Director de Transferencia de Conocimiento — CCHIA",
       image: "/img/jorgeSalgado.png",
-      bio: "Lidera la conexión entre tecnología, educación e implementación estratégica. Transforma conceptos complejos de IA en soluciones aplicables y escalables, impulsando la adopción responsable de tecnologías emergentes.",
+      bio: "Lidera la conexión entre tecnología, educación e implementación estratégica en la Cámara Chilena de Inteligencia Artificial. Transforma conceptos complejos de IA en soluciones aplicables y escalables, impulsando la adopción responsable de tecnologías emergentes.",
       highlights: [
-        "AI Architect con enfoque en implementación estratégica",
-        "Director de Transferencia de Conocimiento",
+        "Director de Transferencia de Conocimiento — CCHIA",
         "Especialista en adopción responsable de IA",
         "Conecta tecnología, educación y organizaciones"
       ],
