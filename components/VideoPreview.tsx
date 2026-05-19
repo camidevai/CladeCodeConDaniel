@@ -2,22 +2,46 @@
 
 import { useState } from "react";
 
-const previousClasses = [
+const allClasses = [
   {
     id: 1,
     videoId: "16v9VS_7W3I",
-    url: "https://www.youtube.com/watch?v=16v9VS_7W3I",
+    videoUrl: "https://www.youtube.com/watch?v=16v9VS_7W3I",
     title: "Módulo 1 — Fundamentos de Claude Code",
-    description: "Claude Code no es un chat. Es un agente de línea de comandos con acceso real a archivos, terminal y herramientas del sistema. Aprende cómo funciona por dentro.",
-    duration: "Clase 1",
+    description: "Claude Code no es un chat. Es un agente de línea de comandos con acceso real a archivos, terminal y herramientas del sistema.",
+    label: "Clase 1",
+    available: true,
+    documentUrl: null,
   },
   {
     id: 2,
     videoId: "16v9VS_7W3I",
-    url: "https://www.youtube.com/watch?v=16v9VS_7W3I&t=409s",
-    title: "Ingeniería en Contexto",
-    description: "Cómo mantener un contexto limpio entre sesiones, qué son los subagentes, cuándo usarlos y los comandos clave para no agotar tus tokens.",
-    duration: "Clase 2",
+    videoUrl: "https://www.youtube.com/watch?v=16v9VS_7W3I&t=409s",
+    title: "Módulo 2 — Ingeniería en Contexto",
+    description: "Cómo mantener un contexto limpio entre sesiones, qué son los subagentes y los comandos clave para no agotar tus tokens.",
+    label: "Clase 2",
+    available: true,
+    documentUrl: null,
+  },
+  {
+    id: 3,
+    videoId: "FtfIN7unxvM",
+    videoUrl: "https://www.youtube.com/watch?v=FtfIN7unxvM",
+    title: "Módulo 3 — Carpeta .claude y componentes",
+    description: "Organización de archivos, componentes reutilizables y estructura de carpetas para proyectos escalables.",
+    label: "Clase 3",
+    available: true,
+    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%203.pdf",
+  },
+  {
+    id: 4,
+    videoId: null,
+    videoUrl: null,
+    title: "Módulo 4 — Planificación y flujos agénticos",
+    description: "Cómo guiar a Claude Code con workflows efectivos: planificación, iteración y optimización de resultados.",
+    label: "Clase 4",
+    available: false,
+    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
   },
 ];
 
@@ -46,7 +70,7 @@ export default function VideoPreview() {
         </div>
 
         {/* Main layout: video + sidebar */}
-        <div className="grid lg:grid-cols-[1fr_340px] xl:grid-cols-[1fr_360px] gap-6 lg:gap-8 items-start">
+        <div className="grid lg:grid-cols-[1fr_360px] gap-6 lg:gap-8 items-start">
 
           {/* Video player */}
           <div className="space-y-5">
@@ -60,7 +84,6 @@ export default function VideoPreview() {
                   allowFullScreen
                 ></iframe>
               </div>
-              {/* Decorative glows */}
               <div className="absolute -z-10 -top-6 -left-6 w-28 h-28 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
               <div className="absolute -z-10 -bottom-6 -right-6 w-36 h-36 bg-red-500/15 rounded-full blur-3xl animate-pulse"></div>
             </div>
@@ -100,79 +123,141 @@ export default function VideoPreview() {
             </div>
           </div>
 
-          {/* Sidebar — clases grabadas */}
+          {/* Sidebar — todas las clases */}
           <div className="space-y-3">
             <div className="flex items-center justify-between mb-1">
-              <h3 className="font-editorial text-xl text-text">Clases grabadas</h3>
+              <h3 className="font-editorial text-xl text-text">Clases y recursos</h3>
               <span className="text-xs text-muted font-mono bg-surface border border-border px-2 py-1 rounded-full">
-                {previousClasses.length} clases
+                {allClasses.length} clases
               </span>
             </div>
 
-            {previousClasses.map((cls) => (
-              <a
-                key={cls.id}
-                href={cls.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                onMouseEnter={() => setHoveredCard(cls.id)}
-                onMouseLeave={() => setHoveredCard(null)}
-                className="group flex gap-3 p-3 bg-surface border border-border rounded-xl hover:border-accent hover:shadow-md transition-all duration-200"
-              >
-                {/* Thumbnail */}
-                <div className="relative flex-shrink-0 w-[120px] sm:w-[130px] aspect-video rounded-lg overflow-hidden bg-black">
-                  <img
-                    src={`https://img.youtube.com/vi/${cls.videoId}/hqdefault.jpg`}
-                    alt={cls.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  {/* Play overlay */}
-                  <div className={`absolute inset-0 flex items-center justify-center bg-black/30 transition-opacity duration-200 ${hoveredCard === cls.id ? 'opacity-100' : 'opacity-0'}`}>
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
-                      <svg className="w-4 h-4 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
+            {allClasses.map((cls) => (
+              cls.available ? (
+                <div
+                  key={cls.id}
+                  onMouseEnter={() => setHoveredCard(cls.id)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                  className="group flex flex-col gap-3 p-3 bg-surface border border-border rounded-xl hover:border-accent hover:shadow-md transition-all duration-200"
+                >
+                  {/* Top row: thumbnail + info */}
+                  <div className="flex gap-3">
+                    <a
+                      href={cls.videoUrl!}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative flex-shrink-0 w-[110px] aspect-video rounded-lg overflow-hidden bg-black"
+                    >
+                      <img
+                        src={`https://img.youtube.com/vi/${cls.videoId}/hqdefault.jpg`}
+                        alt={cls.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className={`absolute inset-0 flex items-center justify-center bg-black/30 transition-opacity duration-200 ${hoveredCard === cls.id ? 'opacity-100' : 'opacity-0'}`}>
+                        <div className="w-7 h-7 bg-red-600 rounded-full flex items-center justify-center shadow-lg">
+                          <svg className="w-3.5 h-3.5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-1.5 right-1.5 bg-black/80 text-white text-[10px] font-bold px-1.5 py-0.5 rounded font-mono">
+                        {cls.label}
+                      </div>
+                    </a>
+
+                    <div className="flex-1 min-w-0 py-0.5">
+                      <p className="text-sm font-semibold text-text leading-snug line-clamp-2 group-hover:text-accent transition-colors duration-200">
+                        {cls.title}
+                      </p>
+                      <p className="text-xs text-muted mt-1 line-clamp-2 leading-relaxed">
+                        {cls.description}
+                      </p>
                     </div>
                   </div>
-                  {/* Class badge */}
-                  <div className="absolute bottom-1.5 right-1.5 bg-black/80 text-white text-[10px] font-bold px-1.5 py-0.5 rounded font-mono">
-                    {cls.duration}
-                  </div>
-                </div>
 
-                {/* Info */}
-                <div className="flex-1 min-w-0 py-0.5">
-                  <p className="text-sm font-semibold text-text leading-snug line-clamp-2 group-hover:text-accent transition-colors duration-200">
-                    {cls.title}
-                  </p>
-                  <p className="text-xs text-muted mt-1.5 line-clamp-2 leading-relaxed">
-                    {cls.description}
-                  </p>
-                  <div className="flex items-center gap-1.5 mt-2">
-                    <svg className="w-3 h-3 text-red-500" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 001.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/>
-                    </svg>
-                    <span className="text-[11px] text-muted">Ver en YouTube</span>
+                  {/* Bottom row: action buttons */}
+                  <div className="flex gap-2">
+                    <a
+                      href={cls.videoUrl!}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-red-500/10 border border-red-500/20 text-red-500 hover:bg-red-500 hover:text-white transition-all duration-200 text-xs font-semibold"
+                    >
+                      <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 001.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/>
+                      </svg>
+                      Ver clase
+                    </a>
+                    {cls.documentUrl ? (
+                      <a
+                        href={cls.documentUrl}
+                        download
+                        className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-accent/10 border border-accent/20 text-accent hover:bg-accent hover:text-white transition-all duration-200 text-xs font-semibold"
+                      >
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Descargar PDF
+                      </a>
+                    ) : (
+                      <span className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-border/30 border border-border text-muted/40 text-xs font-semibold cursor-not-allowed">
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Sin PDF aún
+                      </span>
+                    )}
                   </div>
                 </div>
-              </a>
+              ) : (
+                /* Clase no disponible todavía */
+                <div key={cls.id} className="flex flex-col gap-3 p-3 bg-surface border border-dashed border-border rounded-xl opacity-70">
+                  <div className="flex gap-3">
+                    <div className="flex-shrink-0 w-[110px] aspect-video rounded-lg bg-border/50 flex items-center justify-center">
+                      <svg className="w-5 h-5 text-muted/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                      </svg>
+                      <div className="absolute bottom-1.5 right-1.5 bg-black/80 text-white text-[10px] font-bold px-1.5 py-0.5 rounded font-mono">
+                        {cls.label}
+                      </div>
+                    </div>
+                    <div className="flex-1 py-0.5">
+                      <p className="text-sm font-semibold text-text leading-snug">{cls.title}</p>
+                      <p className="text-xs text-muted mt-1 leading-relaxed line-clamp-2">{cls.description}</p>
+                      <span className="inline-block mt-1.5 text-[10px] text-muted/60 font-mono bg-border/30 px-2 py-0.5 rounded-full">próximamente</span>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2">
+                    <span className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-border/30 border border-border text-muted/40 text-xs font-semibold cursor-not-allowed">
+                      <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M21.593 7.203a2.506 2.506 0 00-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 00-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 001.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"/>
+                      </svg>
+                      Sin video aún
+                    </span>
+                    {cls.documentUrl ? (
+                      <a
+                        href={cls.documentUrl}
+                        download
+                        className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-accent/10 border border-accent/20 text-accent hover:bg-accent hover:text-white transition-all duration-200 text-xs font-semibold"
+                      >
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Descargar PDF
+                      </a>
+                    ) : (
+                      <span className="flex-1 flex items-center justify-center gap-1.5 py-1.5 rounded-lg bg-border/30 border border-border text-muted/40 text-xs font-semibold cursor-not-allowed">
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Sin PDF aún
+                      </span>
+                    )}
+                  </div>
+                </div>
+              )
             ))}
-
-            {/* Coming soon card */}
-            <div className="flex gap-3 p-3 bg-surface border border-dashed border-border rounded-xl opacity-60">
-              <div className="flex-shrink-0 w-[120px] sm:w-[130px] aspect-video rounded-lg bg-border/50 flex items-center justify-center">
-                <svg className="w-6 h-6 text-muted/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div className="flex-1 py-0.5">
-                <p className="text-sm font-semibold text-muted">Clase 3 — EN VIVO</p>
-                <p className="text-xs text-muted/70 mt-1.5">Disponible después de la clase</p>
-                <div className="flex items-center gap-1.5 mt-2">
-                  <span className="text-[11px] text-muted/60 font-mono">• grabando ahora</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

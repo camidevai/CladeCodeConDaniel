@@ -68,7 +68,7 @@ export default function Modules() {
                       {module.description}
                     </p>
                   </div>
-                  
+
                   <ul className="grid sm:grid-cols-2 gap-2">
                     {module.topics.map((topic, topicIndex) => (
                       <li key={topicIndex} className="flex items-start gap-2 text-sm text-muted">
