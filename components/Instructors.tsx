@@ -48,7 +48,7 @@ export default function Instructors() {
         "Conecta tecnología, educación y organizaciones"
       ],
       social: {
-        linkedin: "https://www.linkedin.com/in/jorgesalgado"
+        linkedin: "https://www.linkedin.com/in/jorge-salgado-sc"
       }
     }
   ];
