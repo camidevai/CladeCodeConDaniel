@@ -17,8 +17,8 @@ export default function Countdown() {
   useEffect(() => {
     setMounted(true);
 
-    // Fecha límite: 20 de mayo de 2026 a las 19:00:00 hora de Chile (UTC-3)
-    const targetDate = new Date("2026-05-20T19:00:00-03:00");
+    // Fecha límite: 20 de mayo de 2026 a las 19:00:00 hora de Chile (UTC-4, horario invierno)
+    const targetDate = new Date("2026-05-20T19:00:00-04:00");
 
     const updateCountdown = () => {
       const now = new Date();
