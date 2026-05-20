@@ -23,16 +23,19 @@ export default function TimezonesModal({ isOpen, onClose }: TimezonesModalProps)
   if (!isOpen) return null;
 
   const timezones = [
-    { country: "Chile", flag: "🇨🇱", time: "22:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Argentina", flag: "🇦🇷", time: "22:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Uruguay", flag: "🇺🇾", time: "22:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Brasil", flag: "🇧🇷", time: "22:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Colombia", flag: "🇨🇴", time: "20:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Perú", flag: "🇵🇪", time: "20:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Ecuador", flag: "🇪🇨", time: "20:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "México (CDMX)", flag: "🇲🇽", time: "19:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "Miami (USA)", flag: "🇺🇸", time: "21:00 hrs", date: "Miércoles 20 de Mayo" },
-    { country: "España", flag: "🇪🇸", time: "03:00 hrs 🌙", date: "Jueves 21 de Mayo" },
+    { country: "Chile", flag: "🇨🇱", time: "19:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Argentina", flag: "🇦🇷", time: "19:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Brasil", flag: "🇧🇷", time: "19:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Uruguay", flag: "🇺🇾", time: "19:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Perú", flag: "🇵🇪", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Colombia", flag: "🇨🇴", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Ecuador", flag: "🇪🇨", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Bolivia", flag: "🇧🇴", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Venezuela", flag: "🇻🇪", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Miami / NY (USA)", flag: "🇺🇸", time: "18:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "México (CDMX)", flag: "🇲🇽", time: "17:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "Los Ángeles (USA)", flag: "🇺🇸", time: "15:00 hrs", date: "Miércoles 20 de Mayo" },
+    { country: "España", flag: "🇪🇸", time: "00:00 hrs 🌙", date: "Jueves 21 de Mayo" },
   ];
 
   return (
@@ -97,7 +100,7 @@ export default function TimezonesModal({ isOpen, onClose }: TimezonesModalProps)
 
         <div className="mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-border">
           <p className="text-xs text-muted text-center">
-            La clase será transmitida en vivo por YouTube el Miércoles 20 de Mayo, 2026
+            La clase será transmitida en vivo por YouTube el Miércoles 20 de Mayo, 2026 a las 7:00 PM (Chile)
           </p>
         </div>
       </div>
