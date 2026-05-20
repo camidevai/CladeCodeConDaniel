@@ -35,12 +35,12 @@ const allClasses = [
   },
   {
     id: 4,
-    videoId: null,
-    videoUrl: null,
-    title: "Módulo 4 — Planificación y flujos agénticos",
-    description: "Cómo guiar a Claude Code con workflows efectivos: planificación, iteración y optimización de resultados.",
+    videoId: "NCSf3iowOkY",
+    videoUrl: "https://www.youtube.com/watch?v=NCSf3iowOkY",
+    title: "Módulo 4 — Agent Skills",
+    description: "Cómo crear y usar Agent Skills en Claude Code para automatizar flujos de trabajo y potenciar tus proyectos.",
     label: "Clase 4",
-    available: false,
+    available: true,
     documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
   },
 ];
@@ -62,7 +62,7 @@ export default function VideoPreview() {
             <span className="text-sm sm:text-base font-bold text-red-600">EN VIVO AHORA</span>
           </div>
           <h2 className="font-editorial text-3xl sm:text-4xl lg:text-5xl text-text mb-4">
-            ¡Clase 3 EN VIVO ahora!
+            ¡Clase 4 EN VIVO ahora!
           </h2>
           <p className="text-lg sm:text-xl text-muted max-w-2xl mx-auto">
             Únete ahora y aprende a programar 10x más rápido con Claude Code
@@ -78,8 +78,8 @@ export default function VideoPreview() {
               <div className="w-full aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl border-2 border-red-500/30">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/FtfIN7unxvM?autoplay=1&mute=0"
-                  title="Curso Claude Code - Clase 3 EN VIVO"
+                  src="https://www.youtube.com/embed/NCSf3iowOkY?autoplay=1&mute=0"
+                  title="Curso Claude Code - Clase 4 EN VIVO"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
@@ -103,7 +103,7 @@ export default function VideoPreview() {
               </a>
               <a
                 href={`https://wa.me/?text=${encodeURIComponent(
-                  '🔴 ¡Curso de Claude Code EN VIVO AHORA!\n\n📺 Míralo:\nhttps://www.youtube.com/watch?v=FtfIN7unxvM\n\n🎁 100% GRATUITO\n📲 Comunidad: https://chat.whatsapp.com/L8ibOSRDXVY5keOKU6q7J3'
+                  '🔴 ¡Curso de Claude Code EN VIVO AHORA!\n\n📺 Míralo:\nhttps://www.youtube.com/watch?v=NCSf3iowOkY\n\n🎁 100% GRATUITO\n📲 Comunidad: https://chat.whatsapp.com/L8ibOSRDXVY5keOKU6q7J3'
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
