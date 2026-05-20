@@ -19,8 +19,8 @@ const classes = [
   },
   {
     number: "04",
-    title: "Planificación y flujos agénticos",
-    videoUrl: null,
+    title: "Agent Skills",
+    videoUrl: "https://www.youtube.com/watch?v=NCSf3iowOkY",
     documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
   },
 ];

@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\Camila\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Camila-Documents-GitHub-CladeCodeConDaniel\\\\b5e6011c-26ef-444a-8976-69e3e1800d97\\\\tasks\\\\b3qmucgus.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Ready|ready|error|Error|localhost\" --SimpleMatch)",
+      "Bash(npm install *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\Camila\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Camila-Documents-GitHub-CladeCodeConDaniel\\\\b5e6011c-26ef-444a-8976-69e3e1800d97\\\\tasks\\\\bsg0kl0e2.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Ready|ready|localhost|Error|error|EADDRINUSE\" --SimpleMatch)",
+      "PowerShell(Copy-Item *)",
+      "Bash(Copy-Item *)"
     ]
   }
 }
