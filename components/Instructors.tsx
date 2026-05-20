@@ -43,6 +43,7 @@ export default function Instructors() {
       image: "/img/jorgeSalgado.png",
       bio: "Lidera la conexión entre tecnología, educación e implementación estratégica en la Cámara Chilena de Inteligencia Artificial. Transforma conceptos complejos de IA en soluciones aplicables y escalables, impulsando la adopción responsable de tecnologías emergentes.",
       highlights: [
+        "Ingeniero en Informática — Universidad de La Frontera",
         "Director de Transferencia de Conocimiento — CCHIA",
         "Especialista en adopción responsable de IA",
         "Conecta tecnología, educación y organizaciones"
