@@ -31,7 +31,7 @@ const allClasses = [
     description: "Organización de archivos, componentes reutilizables y estructura de carpetas para proyectos escalables.",
     label: "Clase 3",
     available: true,
-    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%203.pdf",
+    documentUrl: "/api/documentos/Claude%20Code%20m%C3%B3dulo%203.pdf",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const allClasses = [
     description: "Cómo crear y usar Agent Skills en Claude Code para automatizar flujos de trabajo y potenciar tus proyectos.",
     label: "Clase 4",
     available: true,
-    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
+    documentUrl: "/api/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
   },
 ];
 

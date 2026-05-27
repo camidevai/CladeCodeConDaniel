@@ -15,13 +15,13 @@ const classes = [
     number: "03",
     title: "Carpeta .claude y componentes",
     videoUrl: "https://www.youtube.com/watch?v=FtfIN7unxvM",
-    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%203.pdf",
+    documentUrl: "/api/documentos/Claude%20Code%20m%C3%B3dulo%203.pdf",
   },
   {
     number: "04",
     title: "Agent Skills",
     videoUrl: "https://www.youtube.com/watch?v=NCSf3iowOkY",
-    documentUrl: "/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
+    documentUrl: "/api/documentos/Claude%20Code%20m%C3%B3dulo%204.pdf",
   },
 ];
 
