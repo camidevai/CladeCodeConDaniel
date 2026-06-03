@@ -11,7 +11,14 @@
       "Bash(Get-Content \"C:\\\\Users\\\\Camila\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Camila-Documents-GitHub-CladeCodeConDaniel\\\\b5e6011c-26ef-444a-8976-69e3e1800d97\\\\tasks\\\\bsg0kl0e2.output\" -Wait)",
       "Bash(Select-String -Pattern \"Ready|ready|localhost|Error|error|EADDRINUSE\" --SimpleMatch)",
       "PowerShell(Copy-Item *)",
-      "Bash(Copy-Item *)"
+      "Bash(Copy-Item *)",
+      "PowerShell(npx next build 2>&1 | Select-Object -Last 30)",
+      "PowerShell(npm run *)",
+      "PowerShell(npm install *)",
+      "Bash(git config *)",
+      "WebFetch(domain:www.aitmpl.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
